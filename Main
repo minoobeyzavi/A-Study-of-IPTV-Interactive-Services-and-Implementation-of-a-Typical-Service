@@ -1,0 +1,60 @@
+private void getWeather(string City)
+        {
+            try
+            {
+                //Get the data
+                wD = WeatherAPI.GetWeather(LanguageCode.en_US, City);
+                
+                //Set image locations
+                string baseURL = "http://www.google.com";
+                string iconToday = baseURL + wD.iconTODAY;
+                string icon = baseURL + wD.icon;
+                string iconTOMORROW = baseURL + wD.iconTOMORROW;
+                string iconDAY2 = baseURL + wD.iconDAY2;
+                string iconDAY3 = baseURL + wD.iconDAY3;
+
+                //Set images
+                icnCurrent.ImageLocation = icon;
+                icnDay2.ImageLocation = iconDAY2;
+                icnDay3.ImageLocation = iconDAY3;
+                icnToday.ImageLocation = iconToday;
+                icnTomorrow.ImageLocation = iconTOMORROW;
+
+                //Current Conditions
+                lblCity.Text = wD.city;
+                lblCurrentCond.Text = wD.condition;
+                lblCurrentF.Text = "Temperature: " + wD.temp_c.ToString() + "°C";
+                lblWind.Text = wD.humidity;
+
+                //Day 2's Conditions
+                lblDay2.Text = wD.day_of_weekDAY2;
+                lblDay2Cond.Text = wD.conditionDAY2;
+                lblDay2High.Text = "High:  " + ConvertT(wD.highDAY2).ToString() + "°C";
+                lblDay2Low.Text = "Low:  " + ConvertT(wD.lowDAY2).ToString() + "°C";
+
+                //Day 3's Conditions
+                lblDay3.Text = wD.day_of_weekDAY3;
+                lblDay3Cond.Text = wD.conditionDAY3;
+                lblDay3High.Text = "High:  " + ConvertT(wD.highDAY3).ToString() + "°C";
+                lblDay3Low.Text = "Low:  " + ConvertT(wD.lowDAY3).ToString() + "°C";
+
+                //Today's Conditions
+                lblToday.Text = wD.day_of_weekTODAY;
+                lblTodayCond.Text = wD.conditionTODAY;
+                lblTodayHigh.Text = "High:  " + ConvertT(wD.highTODAY).ToString() + "°C";
+                lblTodayLow.Text = "Low:  " + ConvertT(wD.lowTODAY).ToString() + "°C";
+
+                //Tomorrow's Conditions
+                lblTomorrow.Text = wD.day_of_weekTOMORROW;
+                lblTomorrowCond.Text = wD.conditionTOMORROW;
+                lblTomorrowHigh.Text = "High:  " +ConvertT (wD.highTOMORROW).ToString() + "°C";
+                lblTomorrowLow.Text = "Low:  " + ConvertT(wD.lowTOMORROW).ToString() + "°C";
+
+                //Update Ad
+                UpdateAd(Ad, wD.condition);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Please check the city name you are trying to query the weather data for.","Error", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+        }
