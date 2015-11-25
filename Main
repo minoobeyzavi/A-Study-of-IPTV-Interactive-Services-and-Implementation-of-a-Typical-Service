@@ -66,3 +66,92 @@ private void getWeather(string City)
              f = Math.Round(c);
              return f;
         }
+        
+        //Choose Ad
+        void UpdateAd(PictureBox image, string condition)
+        {
+            switch (condition)
+            {
+                case "Clear":
+                    {
+                        image.Image = Properties.Resources.Clear;
+                        break;
+                    }
+                case "Mostly Sunny":
+                    {
+                        image.Image = Properties.Resources.MostlySunny;
+                        break;
+                    }
+                case "Partly Cloudy":
+                    {
+                        image.Image = Properties.Resources.PartlyCloudy;
+                        break;
+                    }
+                case "Mostly Cloudy":
+                    {
+                        image.Image = Properties.Resources.MostlyCloudy;
+                        break;
+                    }
+                case "Overcast":
+                    {
+                        image.Image = Properties.Resources.Overcast;
+                        break;
+                    }
+                case "Chance of Rain":
+                    {
+                        image.Image = Properties.Resources.ChanceofRain;
+                        break;
+                    }
+                case "Partly Sunny":
+                    {
+                        image.Image = Properties.Resources.PartlySunny;
+                        break;
+                    }
+                case "Cloudy":
+                    {
+                        image.Image = Properties.Resources.Cloudy;
+                        break;
+                    }
+                case "Thunderstorm":
+                    {
+                        image.Image = Properties.Resources.Thunderstorm;
+                        break;
+                    }
+                case "Rain":
+                    {
+                        image.Image=Properties.Resources.Rain;
+                        break;
+                    }
+                case "Showers":
+                    {
+                        image.Image = Properties.Resources.Showers;
+                        break;
+                    }
+                case "Chance of Storm":
+                    {
+                        image.Image = Properties.Resources.ChanceofStorm;
+                        break;
+                    }
+                case "Chance of Showers":
+                    {
+                        image.Image = Properties.Resources.ChanceofShowers;
+                        break;
+                    }
+                case "Fog":
+                    {
+                        image.Image = Properties.Resources.Fog;
+                        break;
+                    }
+                case "Light rain":
+                    {
+                        image.Image = Properties.Resources.Lightrain;
+                        break;
+                    }
+                default:
+                    {
+                        image.Image = Properties.Resources.MostlySunny;
+                        break;
+                    }
+            }
+
+        }
