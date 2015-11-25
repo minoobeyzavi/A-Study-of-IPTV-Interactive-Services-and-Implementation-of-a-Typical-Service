@@ -67,6 +67,51 @@ private void getWeather(string City)
              return f;
         }
         
+        private void getDelay(string Selection)
+        {
+            //Set the delay based on User Selection
+            if (Selection == "Never")
+                delay = 1;
+            if (Selection == "1 Minute")
+                delay = 1;
+            if (Selection == "2 Minutes")
+                delay = 2;
+            if (Selection == "5 Minutes")
+                delay = 5;
+            if (Selection == "10 Minute")
+                delay = 10;
+            if (Selection == "30 Minutes")
+                delay = 30;
+            if (Selection == "1 Hour")
+                delay = 1 * 60;
+            if (Selection == "2 Hours")
+                delay = 2 * 60;
+            if (Selection == "4 Hours")
+                delay = 4 * 60;
+            if (Selection == "Select AutoUpdate Interval")
+                delay = 1;
+            delay = (delay * 60000);
+            
+        }
+
+        //Set delay from minutes to milliseconds
+        getDelay(comboBoxEdit1.Text);
+            
+        //Get Weather
+        City = txtCity.Text;
+        getWeather(City);
+
+        //Set timer1
+        if (comboBoxEdit1.Text == "Never")
+        {
+                timer1.Enabled = false;
+        }
+        else
+        {
+                timer1.Interval = delay;
+                timer1.Enabled = true;
+        }
+        
         //Choose Ad
         void UpdateAd(PictureBox image, string condition)
         {
@@ -155,3 +200,4 @@ private void getWeather(string City)
             }
 
         }
+        
