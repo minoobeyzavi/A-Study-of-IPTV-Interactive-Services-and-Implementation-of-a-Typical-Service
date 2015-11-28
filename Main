@@ -1,3 +1,7 @@
+using Animaonline.WeatherAPI;
+using System.Threading;
+using Weather.Properties;
+
 private void getWeather(string City)
         {
             try
