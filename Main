@@ -63,6 +63,14 @@ private void getWeather(string City)
             }
         }
         
+        //Save Settings
+        Settings.Default.defaultCity = txtCity.Text;
+        Settings.Default.intervalText = comboBoxEdit1.Text;
+        Settings.Default.windowPosition = this.Location;
+        Settings.Default.timerOn = timer1.Enabled;
+        Settings.Default.intervalTime = delay;
+        Settings.Default.Save();
+        
         //Convert Farenheit to Centigrade
         double ConvertT(double f)
         {
