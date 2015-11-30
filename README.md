@@ -4,6 +4,6 @@ Interactive services present users with various capabilities. The service provid
 # Commercial Innovation Strategies
  1. Adding supplemental features to existing services
  2. New interaction-based services
- 3. Side mode integration of existing services
+ 3. Side-mode integration of existing services
  4. Personalization & thematic specialization of existing services
  5. Appending content-oriented interactions to existing services
