@@ -2,6 +2,10 @@ using Animaonline.WeatherAPI;
 using System.Threading;
 using Weather.Properties;
 
+private Animaonline.WeatherAPI.WeatherData wD;
+private string City;
+private int delay;
+
 private void getWeather(string City)
         {
             try
