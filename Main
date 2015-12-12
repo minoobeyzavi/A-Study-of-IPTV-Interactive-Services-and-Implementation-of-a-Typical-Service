@@ -6,6 +6,12 @@ private Animaonline.WeatherAPI.WeatherData wD;
 private string City;
 private int delay;
 
+delay = Settings.Default.intervalTime;
+txtCity.Text = Settings.Default.defaultCity;
+this.Location = Settings.Default.windowPosition;
+comboBoxEdit1.Text = Settings.Default.intervalText;
+timer1.Enabled = Settings.Default.timerOn;
+
 private void getWeather(string City)
         {
             try
