@@ -73,6 +73,10 @@ private void getWeather(string City)
             }
         }
         
+        //Get Initial Weather
+        City = txtCity.Text;
+        getWeather(City);
+        
         //Save Settings
         Settings.Default.defaultCity = txtCity.Text;
         Settings.Default.intervalText = comboBoxEdit1.Text;
