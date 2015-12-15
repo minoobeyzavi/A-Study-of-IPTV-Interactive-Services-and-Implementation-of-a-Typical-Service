@@ -138,6 +138,9 @@ private void getWeather(string City)
                 timer1.Enabled = true;
         }
         
+        //Refresh Weather Data
+        getWeather(City);
+        
         //Choose Ad
         void UpdateAd(PictureBox image, string condition)
         {
