@@ -77,13 +77,7 @@ private void getWeather(string City)
         City = txtCity.Text;
         getWeather(City);
         
-        //Save Settings
-        Settings.Default.defaultCity = txtCity.Text;
-        Settings.Default.intervalText = comboBoxEdit1.Text;
-        Settings.Default.windowPosition = this.Location;
-        Settings.Default.timerOn = timer1.Enabled;
-        Settings.Default.intervalTime = delay;
-        Settings.Default.Save();
+      
         
         private void getDelay(string Selection)
         {
@@ -132,6 +126,14 @@ private void getWeather(string City)
         
         //Refresh Weather Data
         getWeather(City);
+        
+        //Save Settings
+        Settings.Default.defaultCity = txtCity.Text;
+        Settings.Default.intervalText = comboBoxEdit1.Text;
+        Settings.Default.windowPosition = this.Location;
+        Settings.Default.timerOn = timer1.Enabled;
+        Settings.Default.intervalTime = delay;
+        Settings.Default.Save();
         
         //Convert Farenheit to Centigrade
         double ConvertT(double f)
