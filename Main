@@ -7,7 +7,7 @@ private string City;
 private int delay;
 
 delay = Settings.Default.intervalTime;
-txtCity.Text = Settings.Default.defaultCity;
+city.Text = Settings.Default.defaultCity;
 this.Location = Settings.Default.windowPosition;
 comboBoxEdit1.Text = Settings.Default.intervalText;
 timer1.Enabled = Settings.Default.timerOn;
@@ -144,7 +144,7 @@ private void getWeather(string City)
         }
         
         //Choose Ad
-        void UpdateAd(PictureBox image, string condition)
+        void updateAd(PictureBox image, string condition)
         {
             switch (condition)
             {
