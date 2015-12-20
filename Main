@@ -7,7 +7,7 @@ private string City;
 private int delay;
 
 delay = Settings.Default.intervalTime;
-city.Text = Settings.Default.defaultCity;
+txtCity.Text = Settings.Default.defaultCity;
 this.Location = Settings.Default.windowPosition;
 comboBoxEdit1.Text = Settings.Default.intervalText;
 timer1.Enabled = Settings.Default.timerOn;
@@ -65,7 +65,7 @@ private void getWeather(string City)
                 lblTomorrowLow.Text = "Low:  " + ConvertT(wD.lowTOMORROW).ToString() + "°C";
 
                 //Update Ad
-                UpdateAd(Ad, wD.condition);
+                updateAd(Ad, wD.condition);
             }
             catch (Exception)
             {
