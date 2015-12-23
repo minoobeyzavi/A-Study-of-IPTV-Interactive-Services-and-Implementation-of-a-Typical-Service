@@ -34,7 +34,7 @@ private void getWeather(string City)
                 icnToday.ImageLocation = iconToday;
                 icnTomorrow.ImageLocation = iconTOMORROW;
 
-                //Current Conditions
+                //Current Weather Conditions
                 lblCity.Text = wD.city;
                 lblCurrentCond.Text = wD.condition;
                 lblCurrentF.Text = "Temperature: " + wD.temp_c.ToString() + "°C";
@@ -64,7 +64,7 @@ private void getWeather(string City)
                 lblTomorrowHigh.Text = "High:  " +ConvertT (wD.highTOMORROW).ToString() + "°C";
                 lblTomorrowLow.Text = "Low:  " + ConvertT(wD.lowTOMORROW).ToString() + "°C";
 
-                //Update Ad
+                //Display apparel advertisment that is appropriate to the current weather condition.
                 updateAd(Ad, wD.condition);
             }
             catch (Exception)
