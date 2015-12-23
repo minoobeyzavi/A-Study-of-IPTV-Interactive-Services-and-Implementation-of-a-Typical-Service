@@ -64,7 +64,7 @@ private void getWeather(string City)
                 lblTomorrowHigh.Text = "High:  " +ConvertT (wD.highTOMORROW).ToString() + "°C";
                 lblTomorrowLow.Text = "Low:  " + ConvertT(wD.lowTOMORROW).ToString() + "°C";
 
-                //Display apparel advertisment that is appropriate to the current weather condition.
+                //Dynamic apparel advertisement corresponding to current weather condition.
                 updateAd(Ad, wD.condition);
             }
             catch (Exception)
