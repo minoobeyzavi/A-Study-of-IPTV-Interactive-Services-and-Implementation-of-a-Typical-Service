@@ -40,25 +40,25 @@ private void getWeather(string City)
                 lblCurrentF.Text = "Temperature: " + wD.temp_c.ToString() + "°C";
                 lblWind.Text = wD.humidity;
 
-                //Day 2's Conditions
+                //Day 2
                 lblDay2.Text = wD.day_of_weekDAY2;
                 lblDay2Cond.Text = wD.conditionDAY2;
                 lblDay2High.Text = "High:  " + ConvertT(wD.highDAY2).ToString() + "°C";
                 lblDay2Low.Text = "Low:  " + ConvertT(wD.lowDAY2).ToString() + "°C";
 
-                //Day 3's Conditions
+                //Day 3
                 lblDay3.Text = wD.day_of_weekDAY3;
                 lblDay3Cond.Text = wD.conditionDAY3;
                 lblDay3High.Text = "High:  " + ConvertT(wD.highDAY3).ToString() + "°C";
                 lblDay3Low.Text = "Low:  " + ConvertT(wD.lowDAY3).ToString() + "°C";
 
-                //Today's Conditions
+                //Today
                 lblToday.Text = wD.day_of_weekTODAY;
                 lblTodayCond.Text = wD.conditionTODAY;
                 lblTodayHigh.Text = "High:  " + ConvertT(wD.highTODAY).ToString() + "°C";
                 lblTodayLow.Text = "Low:  " + ConvertT(wD.lowTODAY).ToString() + "°C";
 
-                //Tomorrow's Conditions
+                //Tomorrow
                 lblTomorrow.Text = wD.day_of_weekTOMORROW;
                 lblTomorrowCond.Text = wD.conditionTOMORROW;
                 lblTomorrowHigh.Text = "High:  " +ConvertT (wD.highTOMORROW).ToString() + "°C";
