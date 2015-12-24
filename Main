@@ -69,7 +69,7 @@ private void getWeather(string City)
             }
             catch (Exception)
             {
-                MessageBox.Show("Please check the city name you are trying to query the weather data for.","Error", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("Please check the city name.","Error", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
         }
         
