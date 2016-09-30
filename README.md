@@ -94,7 +94,7 @@ Viewing profiles of IPTV end-users
 
 ##### End-to-end IPTV EPG system
 
-IPTV EPG Application Server 
+##### IPTV EPG Application Server 
 
 The metadata generator interfaces with the EPG server to deliver program information to the EPG client application in a suitable format. The application server consists of software programs, a HTTP server, and a centralized database that contains the event data of all the broadcast programs on offer. It has four main functions:
 (1) Formatting—The channel listing are generally formatted as Web pages.
@@ -121,3 +121,47 @@ Step 5—Results are received, rendered, and the EPG page is layed out on the TV
 
 The EPG network architecture described above relies on the ability of the
 network and backend servers to respond immediately to EPG instructions. On some occasions IPTV end users may experience delays due to congestion or other issues that slow down the processing of EPG requests. Where this occurs on a regular basis, service providers have an option of using an architecture that involves processing the EPG locally on the IPTVCD. Under this approach the basic EPG application normally resides in the IPTVCD’s storage system and accesses current meta-data from the IP network. Local storage of the EPG application speeds up broadband network response times for the end-user because it launches and operates immediately once the IPTVCD is powered on.
+
+
+### Weather Forecast
+
+Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
+IPTV network operators provide an embedded software application on their IP set-top boxes that receives data about current weather conditions and displays this information on the TV screen. Such software can be provided as part of a middleware platform.
+Weather application is the most popular interactive service of an IPTV system. In the figure below, the structure of a generic infrastructure used by IPTV operators to deliver high speed access to weather information to their subscribers is illustrated. 
+As shown, an end-to-end system includes: the IPTVCD weather application, a HTTP Web server, and a high-speed backhaul connection to the Internet.
+
+
+##### Technical building blocks of an IPTV weather forecast service.
+
+##### IPTVCD Weather Application
+
+The weather application written for IPTVCDs need the same robust functionality found in desktops, but with access to a fraction of the hardware resources. Therefore, they are optimized to run within resource constrained platforms such as set-top boxes, mobile phones, and Internet-enabled appliances.
+The weather forecast software runs on top of the underlying real-time OS and middleware platforms and typically provides the following functionality:
+It gives you instant access to real-time local weather and alerts you whenever severe storms threaten. You're just one step away from detailed information on your local weather conditions as well as your favorite cities worldwide. More advanced versions can also provide:
+
+
+weather maps
+animated radar
+hourly and daily forecasts
+local/national maps
+satellite images
+weather alarms
+hurricane central
+weather videos
+severe weather alert
+weather trivia, photos and cartoons
+weather news
+customizable look & feel
+
+It might even present the subscribers with weather and health information for the exercise enthusiast or doctors and those with health concerns - arthritis, asthma, flu, migraine allergies and more.
+The weather application is pre-embedded in the client’s IPTVCD and works on top of the IPTV middleware.
+
+##### A Web Server
+ 
+A Web server, also known as an HTTP server, is basically a file server. A Web server’s main function within an IPTV network is to listen for and respond to HTTP requests from IPTVCD weather application clients. When a request is received, the server opens a connection to the application and sends the requested weather forecast information. After servicing the request, the server returns to its listening state, waiting for the next HTTP request. HTTP is extremely rapid. According to Tim Berners-Lee, the developer of HTTP, the request is made and the response is given in a cycle of 100 ms. Therefore the viewer will always have access to weather information that is current and up to date. In addition to responding to requests from applications, Web servers are also responsible for completing other tasks including:
+Connecting to various weather servers through the Internet;
+Checking for new information periodically and keeping the data up to date.
+
+
+The hardware requirements for a Web server will vary according to the level of interaction between the IP set-top box and the Web server.
+We should note that in addition to the web server and the weather application, we also need a broadband connection to the Internet to deploy this service on an IPTV platform.
