@@ -1,15 +1,15 @@
-# Review of IPTV Interactive Services and Implementation of a Typical Service
+## Review of IPTV Interactive Services and Implementation of a Typical Service
 An interactive service is one that enables user to receive a transmission of data specially created for the recipient, or upon request, whether or not as part of a program, which is selected by or on behalf of the recipient.
 Interactive services present users with various capabilities. The service provider can combine these capabilities with other services to create two-way communications with the client. The application is implemented to be used on a platform, however it has the least confluence with the main processes of its platform and independently runs and interacts with the user.
 
-## Commercial Innovation Strategies
+### Commercial Innovation Strategies
  1. Adding supplemental features to existing services
  2. New interaction-based services
  3. Side-mode integration of existing services
  4. Personalization & thematic specialization of existing services
  5. Appending content-oriented interactions to existing services
  
-## Commercial IPTV Interactive Services
+### Commercial IPTV Interactive Services
  1. Electronic Programming Guide
  2. VoD
  3. Browsing
@@ -28,7 +28,7 @@ Interactive services present users with various capabilities. The service provid
  16. Personalized Channels
  17. Weather Forcast
  
-## Interactive IPTV Applications
+### Interactive IPTV Applications
 
 
 As the transition from all things analog to digital continues, iTV is becoming more and more prevalent. Thanks to increased bandwidth in new networking infrastructure and the great carrying capacity of the compressed digital signal, interactive content can be offered to more and more householders. iTV describes the phenomenon whereby users are enable to actively engage with content on their TV screens. iTV adds an extra layer of functionality to IPTV beyond on-demand and linear programming services.
@@ -43,7 +43,7 @@ To get the right interactive services to meet consumer demands will require expe
 
 
  
-### Electronic Programming Guide
+#### Electronic Programming Guide
 
 Since IPTV brings into the home many more channels and services, people need a way of navigating the myriad of choices. An application that does this is typically referred to as an electronic program guide. An EPG, also known as intelligent program guides (IPG), is an interface application that allows IPTV subscribers to preview, select, and connect to various types of IP and interactive TV services. The EPG application is generally a standard part of an IPTV service offering and is commonly used to navigate through a growing number of channels and sources of video content available to subscribers. An EPG presents IPTV subscribers with a menu of available IPTV channels in HTML format and a remote control is typically used to navigate this menu. Owing to the two-way nature of IPTV networks, it is possible to include several full days of programming information for every channel and detailed descriptions of every program within each channel. In addition, subscribers are able to search by genre, program title, channel, and even by time. Once a channel is selected, the video content is downloaded over the broadband network for immediate viewing. The EPG application is usually displayed on the TV screen in tabular or grid format. This type of design is generally easy to read and understand. It is however possible to change the look and feel of the EPG interface to meet the branding requirements of different IPTV service providers. The communication process between the client EPG application running on the IP set-top box and the server application uses standard Internet protocols. If the IPTV transmission network is using multicasting, then the program descriptions retrieved by the IP set-top box also contain port numbers and related multicast IP addresses.
 
