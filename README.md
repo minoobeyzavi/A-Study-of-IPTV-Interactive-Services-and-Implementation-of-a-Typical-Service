@@ -92,11 +92,7 @@ Applicability of content to particular types of IPTVCDs
 Viewing profiles of IPTV end-users
 
 
-![alt tag](https://raw.githubusercontent.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/master/img02.png)
-
-##### End-to-end IPTV EPG system
-
-##### IPTV EPG Application Server 
+##### End-to-end IPTV EPG system: Application Server 
 
 The metadata generator interfaces with the EPG server to deliver program information to the EPG client application in a suitable format. The application server consists of software programs, a HTTP server, and a centralized database that contains the event data of all the broadcast programs on offer. It has four main functions:
 (1) Formatting—The channel listing are generally formatted as Web pages.
