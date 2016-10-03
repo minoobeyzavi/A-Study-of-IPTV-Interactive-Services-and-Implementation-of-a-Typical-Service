@@ -121,6 +121,90 @@ The EPG network architecture described above relies on the ability of the
 network and backend servers to respond immediately to EPG instructions. On some occasions IPTV end users may experience delays due to congestion or other issues that slow down the processing of EPG requests. Where this occurs on a regular basis, service providers have an option of using an architecture that involves processing the EPG locally on the IPTVCD. Under this approach the basic EPG application normally resides in the IPTVCD’s storage system and accesses current meta-data from the IP network. Local storage of the EPG application speeds up broadband network response times for the end-user because it launches and operates immediately once the IPTVCD is powered on.
 
 
+#### IP Based Video on Demand (VoD)
+
+IPTV is often provided in conjunction with VoD. As the name implies VoD is a service that allows subscribers to select and download video content over an IP network. The content typically includes a library of films, music videos, and recorded television programs. The deployment of a VoD system falls into two broad categories:
+
+Downloadable—the VoD content is delivered to the IP set-top box and the content is viewed once the downloading is finished.
+Streaming—The IPTV set-top box receives the content via an IP stream.
+A VoD system is the “holy grail” of viewing TV and enables an individual subscriber located in geographically dispersed locations to demand a program or movie when and where they want it.
+The selection of a VoD title by an IPTV end user is relatively easy and typically comprises the following five steps:
+
+The subscriber selects a VoD title from the interactive TV application.
+The IPTVCD accepts the command and sends this instruction to the headend or data center.
+The conditional access system is checked to verify that the subscriber is authorized to view the particular VoD title.
+Once authorization is complete, a unicast video stream is forwarded to the regional office and onward to the IPTVCD.
+The IP stream is controlled by the subscriber.
+
+In addition to a high capacity two-way broadband network, the deployment of IP-VoD services also requires a number of other logical and physical technology blocks:
+
+IP-VoD streaming server(s)
+IP-VoD transport protocols
+An Interactive IP-VoD client application
+
+We explore these technology blocks in the following subsections.
+IP-VoD Streaming Servers
+
+In addition to the various processes that are executed in IPTV data centers, namely, encoding, multiplexing, and modulation, a number of high capacity computer servers are also installed to allow the delivery of IP-VoD services to various types of IPTVCDs. The main function of these VoD streaming servers is to retrieve and deliver on demand video content to a distribution network.
+IP VoD servers are built using standard off-the-shelf computer and electronic components. Lots of processing power, fast input/output (I/O) systems, and large amounts of storage space are the main hardware characteristics of VoD streaming servers. Fortunately, for IPTV service providers the prices for these components continue to fall, while their capacities are continuing to rise. A video server typically includes redundant components such as power supplies, hot swappable hard drives and multiple CPUs. It acquires VoD assets from a number of content sources and is typically able to handle a range of different types of compression formats including MPEG-2, H.264/AVC, and VC-1. A Gigabit Ethernet output provides connectivity to the access network.
+A large database of video movies and program assets resides on the server. The server receives requests for a particular content asset from VoD capable IPTVCDs, identifies the item, and streams the requested item to the IPTVCD.
+The size and capabilities of the video server varies from supplier to supplier. A cluster of IP-VoD servers incorporate operating systems and application software that optimize the process of streaming video assets and simplify the day-to-day operations of the overall system. The operating systems used by VoD servers vary between vendors. The application software typically performs a number of critical functions.
+
+
+##### Setting up a VoD stream
+
+Management of Digital Streams: The setup, teardown, and control of VoD streaming sessions is a core function of the VoD server software.
+A graphical illustration showing the steps associated with establishing an IP-VoD stream between a client IP set-top box and a backend VoD server is shown in the figure above and explained in the following sections.
+Start communication with the CA System—On receipt of a request from the IP set-top box, the server software communicates with the CA system to determine if the IPTV subscriber has been authorized to view the requested IP VoD asset.
+Identify appropriate IP-VoD Server—Once authorization has been verified, the software identifies a suitable VoD server cluster to fulfill the request. The location of this server or cluster of servers will depend on the IP subnet of the requesting set-top box.
+Send encryption keys across network—Once the server cluster has been allocated, the backend software or the CA system sends a decryption key to the IP set-top box to facilitate decryption of the IP VoD content.
+Send IP parameters—IP transport protocol parameters and the IP address of the VoD server is also sent to the IP set-top box.
+IP VoD streaming commences—Bandwidth is allocated and streaming of the IP VoD asset commences. The IP set-top box uses a protocol called Real-Time Streaming Protocol (RTSP) to manage the flow of the stream.
+
+While the stream is live on the network, it is the responsibility of the server software to ensure that if a fault occurs that the fail over system is activated and the stream continues without interruption.
+Updating Digital Content: A VoD software infrastructure has to have the capability to automatically manage the updating of video content. Relying on a manual system to keep VoD content libraries up to date is problematic. 
+The backoffice software ensures that all the digital assets included in the VoD library are current. This is achieved by automatically loading files from the content reception system into the VoD cluster of servers.
+Replication Management: The backoffice software manages the replication of digital assets across a distributed networking infrastructure. In the event that new content is made available, it is the responsibility of this software to ensure that the asset is propagated to edge and cache servers around the network.
+Management of Metadata: A centralized database is used to store the various attributes or metadata that are associated with each of the digital assets. Metadata is generally formatted as an XML file and provides descriptive data about each video asset. Metadata is typically used to search and browse VoD content. The types of metadata associated with a standard movie include
+Movie producers name
+Description
+Date when the movie was created
+Movie summary
+Parental rating
+Run time of the movie
+Actor and director details
+Genre
+Licensing details
+Royalty details
+The backoffice software is responsible for ensuring the integrity of this metadata. Industry groups such as CableLabs have defined a standard for VoD metadata.
+Search Capabilities: The indexing capabilities of video server software allow IPTV end users to carry out searches for digital assets on the backend IP-VoD servers.
+Managing Access of IP-VoD Digital Assets: The server software provides an external interface to the service provider’s back office components — the conditional access, digital rights management, and billing systems. Inputs from this interface are used to control and manage access to the digital VoD assets.
+Interfacing with IPTVCDs: The back-office software is also responsible for interfacing and communicating information about VoD assets that are available for purchase to the VoD client software application installed on various types of IPTVCDs.
+
+##### IP VoD Transport Protocols
+
+IP VoD servers typically use the Real-time Transport Protocol (RTP) and Real-time Control Protocol (RTCP) to stream video data to an IPTVCD. The Real-Time Streaming Protocol is subsequently used to control these streams. The following sections give a brief overview of these three protocols when used in an IPTV infrastructure.
+
+Overview of RTP and RTCP
+As the name suggests RTP is a native part of the IP suite of communication protocols. It was published as a standard by the ITU-T and has been specifically designed to carry signals for a wide range of realtime applications.
+In addition to IPTV there are several other applications that use the RTP protocol ranging from video conferencing to VoIP. Applications that run RTP usually do so on top of the UDP and IP protocol layers. This is because RTP provides appropriate QoS mechanisms and is able to recover from problems that go undetected by UDP.
+RTCP or the control part of RTP monitors the quality of real-time IPTV services. Its main function is to work with protocols such as UDP to provide feedback information to the IPTV data center systems about the quality of data delivery and reception. The types of feedback information ranges from how many IPTV packets were lost while traversing the network to delays in the delivery of IPTV packets.
+
+RTSP Overview 
+Real-Time Streaming Protocol is an application level protocol belonging to the IP communication model that enables IPTVCDs to establish and control the flow of IPTV streams. The specification for RTSP was published in 1998 and can be found in RFC 2326. It allows IPTVCDs to issue VCR style commands to an IPTV streaming server. The figure below shows how these protocols interact with each other.
+
+
+##### RTP protocol stack
+
+In addition to VCR type functionality, RTSP also allows an IPTVCD to request and retrieve a particular item of IPTV content. The fulfillment of this request involves the inclusion of the appropriate VoD servers IP address inside the request command issued by the IPTVCD.
+
+Interactive IP-VoD Client Application
+
+A deployment of a generic IP-VoD system architecture is based on a client/server computing model. This means that a dedicated point-to-point connection is setup between the IPTVCD and the server at the data center. To interoperate with the data center server over this connection the IPTVCD requires a VoD client software application that is capable of receiving IP based VoD streams. The client application presents the IPTV end user with a menu of video assets and associated descriptions on their television screen. The contents of the menu are based on the programming package that the consumer has subscribed to. The technical gathering of this information is called service discovery and varies between networks. For instance, on a DVB network the system used to discover information about available on-demand services is a standard XML record, which is predefined.
+
+In addition to allowing subscribers to select and download specific movies a typical IP-VoD client application also supports content searching and stream control functionality. An implementation of the client IP-VoD application is typically implemented through an embedded HTML browser.
+
+
 ### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
