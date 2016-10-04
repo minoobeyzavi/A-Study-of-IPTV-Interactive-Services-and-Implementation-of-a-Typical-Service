@@ -205,7 +205,45 @@ A deployment of a generic IP-VoD system architecture is based on a client/server
 In addition to allowing subscribers to select and download specific movies a typical IP-VoD client application also supports content searching and stream control functionality. An implementation of the client IP-VoD application is typically implemented through an embedded HTML browser.
 
 
-### Weather Forecast
+#### IPTV Browsing
+
+Many IPTV network operators provide viewers with access to the Web. This can be in the form of either TV-based Web browsing (WebTV) or Walled gardens. TV based Web browsing is similar to browsing on a PC but it is TV based. Since many Web pages are not tailored for viewing on TV, some network operators provide an embedded browser on their IP set-top boxes that change a Web page automatically. Such software can be provided as part of a middleware platform. 
+
+The concept of using a television set to bring Web connectivity has been commercially available for over a decade but due to a whole raft of reasons consumers have continued to reject the use of this interactive TV application. With advancements in IPTV and Web technologies the popularity of accessing Web content via TV applications is expected to grow in the coming years.
+Web browsing is a key component of an IPTV system. In the figure below, the structure of a generic infrastructure used by IPTV operators to deliver high speed Web access to their subscribers is illustrated.
+As shown, an end-to-end system includes: the IPTVCD Web browser, a HTTP Web server, caching servers, and a high-speed backhaul connection to the Internet.
+
+##### IPTVCD Browsers
+
+Browsers built for IPTVCDs need the same robust functionality found in desktops, but with access to a fraction of the hardware resources. Therefore, they are optimized to run within resource constrained platforms such as set-top boxes, mobile phones, and Internet-enabled appliances. The browser software runs on top of the underlying real-time OS and middleware platforms and typically provides the following functionality:
+Displaying Web pages—Putting a Web page on a television screen is very different to displaying the same page on a computer monitor. It must be remembered that the television has been in existence for over a hundred years. Therefore, IPTVCDs employ sophisticated software browsers to ensure that Web pages are easily viewed on a TV screen.
+ 
+##### Technical building blocks of an IPTV browsing system
+
+IPTVCD browsers are able to squeeze the content of a Web page on to a television screen, while limiting the affects of viewing content on a low resolution device. This process is called transcoding and involves repurposing Web content into a simpler format that is suitable for display on a standard television. 
+Transcoding can be divided into two broad categories: HTML and Image Transcoding. The transcoding of HTML content includes checking the code for any errors. An example of an HTML error would be the absence of a </html> tag on a standard Web page. Transcoding filters these errors and produces a version of HTML that can be easily rendered by the IPTVCD browser. In addition to checking for errors, the HTML transcoding element is also capable of changing the layout to a TV centric format. For example, the default font size for a Web browser is normally 10 points. If this font size were to be displayed on a television screen, then it would be very difficult to read. Consequently, the transcoding engine will automatically increase the size of the font to 20 or 22 points. This approach means that less text can be displayed on a TV screen than in a comparable area of a computer monitor. However, the text is legible for subscribers that are viewing the page from a distance of 4--5 ft away from the television display. In addition to automatically adjusting font sizes, transcoding takes care of adjusting the size of a page to fit within the width and height of a TV screen. 
+
+Image transcoding is responsible for converting the many image formats used on the Internet to a format that is suitable for an IPTV environment. Flat-color GIFs are processed more readily by IPTVCDs than JPEGs or PNGs. So, for instance, when an IPTV subscriber makes a request for a document on the public Internet, which contains JPEG images, the image transcoder is able to convert the images into a GIF format. In addition to translating the file format, some advanced browsers are also capable of formatting and scaling graphics for a television screen.
+As shown in the figure below, an IPTVCD browser consists of a presentation engine that processes and renders a number of different types of open Internet and TV content formats.
+
+
+###### IPTVCDs supported browser formats
+
+###### A Web Server 
+
+A Web server, also known as an HTTP server, is basically a file server. A Web server’s main function within an IPTV network is to listen for and respond to HTTP requests from IPTVCD browser clients. When a request is received, the server opens a connection to the browser and sends the requested file or Web page. After servicing the request, the server returns to its listening state, waiting for the next HTTP request. HTTP is extremely rapid. According to Tim Berners-Lee, the developer of HTTP, the request is made and the response is given in a cycle of 100 ms. The delays experienced are usually the result of congestion on the IP based network. In addition to responding to requests from browsers, Web servers are also responsible for completing other tasks including
+Logging activity on the IPTV network
+Protecting Web pages from unauthorized users
+Sending requests to peer Web servers on the public Internet
+The hardware requirements for a Web server will vary according to the level of interaction between the IP set-top box and the Web server.
+
+##### Caching Servers 
+
+When using a resource constrained device such as a set-top box to browse the Web, it makes sense to incorporate optimized caching within the overall system architecture. The caching servers are normally located at the IPTV service provider’s regional office at the edge of the core IP backbone network. The caching technique employed by IPTV systems involves the storage of popular Web pages on the server. The various caching servers used by an IPTV browsing application use standardized communication protocols to “talk to each other,” thus ensuring that local Web pages are kept current. Caching servers fall into two broad categories: software that runs on a standard server or a dedicated hardware platform.
+Note that in addition to the above technologies, a high speed and resilient connection to the public Internet is also required for IPTV browsing services.
+
+
+#### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
 IPTV network operators provide an embedded software application on their IP set-top boxes that receives data about current weather conditions and displays this information on the TV screen. Such software can be provided as part of a middleware platform.
