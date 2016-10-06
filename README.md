@@ -271,6 +271,33 @@ IMAP—stands for Internet Message Access Protocol, the latest version of this p
 Every IPTV subscriber that avails of the e-mail service receives a unique e-mail address and a mailbox. The mailboxes are stored and managed on mail server gateways at the IPTV data center. These servers are connected to the Internet and also interface with the OBSS for billing purposes. The mail server gateway is a software program that runs on a mail server and links the IPTV network through a firewall to the public Internet.
 
 
+#### IPTV E-Mail
+
+From the earliest days of society people have used various systems and technologies to communicate with each other. With the recent explosion of the Internet, the most popular means of communicating between computers is electronic mail (e-mail). With the advent of IPTV, e-mail is now poised to enter the living room.
+
+
+The figure below shows how an end to end IPTV e-mail solution might look like. As illustrated the major components of a fully built end-to-end IPTV e-mail system include the client software resident in the IPTVCD, a suite of communication protocols, servers, and a firewall located at the IPTV data center.
+
+
+##### End-to-end IPTV e-mail solution
+
+##### IPTVCD E-Mail Clients 
+
+The IPTVCD with its interactive capability is seen by many as a natural environment for e-mail in the home. The client e-mail application is normally integrated with the IPTVCD middleware and uses the TCP/IP protocol to communicate with the IPTV data center. Modern IPTV e-mail applications fulfill a wide range of functions and let subscribers do more than just send or receive mails. For instance, the attachment of files to e-mails is supported. This might sound like a trivial feature but in the world of IPTV and thin IPTVCD clients the implementation of attaching files poses some technical challenges. For instance, IP set-top boxes do not have the processing power or storage capacity necessary to run popular programs that are needed to open file attachments. Therefore, the IPTV e-mail client needs to convert the attachment into HTML format and then use the browser to display the file. Other features supported by IPTV e-mail clients include personal address books and support for encryption.
+
+##### Networking and Communication Protocols 
+
+E-mail messages are always transmitted in American Standard Code for Information Interchange (ASCII) format. ASCII files are text-only files. The transfer of e-mail messages in an IPTV environment are normally based on Internet mail standards such as SMTP, MIME, IMAP4, and POP3.
+SMTP—stands for Simple Message Transfer Protocol. It is used to transfer IPTV mails from the mail server located at the data center to another e-mail server on the Internet, and is designed for reliable and efficient mail transfer. SMTP forms part of the TCP/IP protocol stack, and is used to specify how e-mails should be passed from transmitting to receiving hosts.
+MIME—stands for Multipurpose Internet Mail Extensions. MIME is an Internet standard that lets IPTV e-mail clients automatically encode and decode binary files from their original format into a format that is viewable on a television screen. It specifies how non-ASCII messages should be formatted so that they can be sent over the public Internet. Examples of non-ASCII messages include graphic, audio, and video files. This protocol allows IPTV e-mail systems to support much more than just text messages. There are many predefined MIME formats, including JPEG file graphics, and PostScript files.
+POP3—stands for Post Office Protocol version 3. It is used by IPTVCD e-mail clients to access messages stored on the mail server.
+IMAP—stands for Internet Message Access Protocol, the latest version of this protocol, IMAP4, has similar functionality to POP3 but does support additional features, which are useful for IPTV end users. E-mail searching using keywords while the e-mails remain on the server is one example of an IMAP feature that is not supported by POP3.
+
+##### E-Mail Servers 
+
+Every IPTV subscriber that avails of the e-mail service receives a unique e-mail address and a mailbox. The mailboxes are stored and managed on mail server gateways at the IPTV data center. These servers are connected to the Internet and also interface with the OBSS for billing purposes. The mail server gateway is a software program that runs on a mail server and links the IPTV network through a firewall to the public Internet.
+
+
 #### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
