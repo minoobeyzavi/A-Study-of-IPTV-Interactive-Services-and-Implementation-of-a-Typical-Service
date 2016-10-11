@@ -333,6 +333,20 @@ IP set-top box—The targeting of adverts over an IPTV network generally starts 
 The deployment of an IPTV targeted advertising system is rarely implemented in isolation and is usually integrated into an IPTV data center in conjunction with a number of other third-party systems.
 
 
+#### Gaming on Demand (GoD)
+
+IPTV technologies also allow telecom operators to deliver interactive TV gaming applications to their customers. The addition of online gaming applications to a portfolio of IPTV services can not only help to generate additional revenue streams for telecom operators but also reduce customer churn. In addition to subscriptions, IPTV providers can also place adverts in IP based games that connect advertisers with end users. The GoD application allows IPTV subscribers to
+
+play high quality premium games from the comfort of their homes;
+play with other gamers connected to the Internet;
+participate in text, phone, or emoticon messaging during game play.
+
+The two major components of an IP based on-demand gaming system are depicted in the figure below.
+Gaming servers—A client-server computing architecture is generally used to deploy this type of IPTV application. The servers are located at the IPTV data center and typically integrate seamlessly into existing VoD infrastructures. A server may be involved in two types of tasks with the deployment of online games: store the various game titles and interpreting instructions from the IP set-top box.
+Online gaming client applications—IPTV gaming applications run locally or remotely, dependent on the hardware capabilities of the IPTVCD. A remote control or specialized joystick is typically used to play the games. The UDP/IP protocol layers of the IPTVCM are used to carry the gaming content both upstream and downstream to the client IPTVCD.
+Although games deployed by IPTV systems are a far cry from the advanced games that are played on dedicated game consoles, the level of sophistication used by IPTV games has improved dramatically in recent times and this trend is expected to continue into the future.
+
+
 #### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
