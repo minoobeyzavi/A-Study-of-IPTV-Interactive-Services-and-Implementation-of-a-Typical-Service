@@ -311,6 +311,28 @@ A client IPTVCD software application—the display of caller ID details on a TV 
 The caller ID application can also be used to display notifications of other types of incoming messaging services including voicemails, and text messages. The caller ID for TVs is an extremely popular application amongst IPTV subscribers and is one practical example of how converged services will have an impact on people’s lives in the years ahead.
 
 
+#### IPTV Advertising
+
+The use of interactive TV as a medium to deliver advertising is rapidly emerging into a mainstream application. The fact that it allows advertisers and service providers to engage consumers with a compelling suite of advertisements is considered to be one of the main drivers of this type of IPTV application. IPTV is capable of supporting a range of different IPTV ad formats, including telescoped long form adverts and integrated links that are embedded directly into the content. 
+
+In addition to the various ad formats, IPTV allows operators to place adverts into both the standard broadcast programming streams and the increasingly popular method of delivering content on-demand. Not only does IPTV advertising provide advertisers with a one-to-one connection with consumers but it also represents a significant revenue opportunity for telecommunication operators deploying IPTV services. The advent of new targeted advertising technologies that run across IP networks are now starting to appear in different IPTV deployments across the world. The two key benefits of these new IP based systems compared to traditional advertising systems that operate over RF based networks are
+Two-way capabilities—Owing to the fact that all of the IPTV deployments are operating over bidirectional broadband networks means that these new advertising systems are able to collect and monitor in real-time viewer reactions to advertisements. This feature allows advertisers to immediately gauge the effectiveness of a particular marketing campaign.
+Individual IPTVCDs can be addressed directly—The deployment of targeted ad insertion techniques on an IPTV system enables service providers, content programmers, and advertisers to target their advertising messages to individual IPTV viewers. This is a major benefit over current advertising systems, which are limited to targeting commercial advertisements to specific geographical areas.
+
+
+The functionality provided by this application allows subscribers to retain control of their video content viewing experience while ensuring that they only receive adverts on products and services that align with their interests in an opt-in basis. From an advertiser’s perspective, the availability of accurate user data helps to increase the success of their advertising campaigns by allowing them to focus on viewer’s interests. Service providers also benefit from this level of functionality because it helps to create a new television advertising revenue stream. The six major hardware and software components of a fully built end-to-end addressable advertising system are depicted in the figure below and described in the following sections.
+
+##### IPTV targeted advertising system
+
+Content reception—In an IPTV advertising system, the television channel is typically received from off-air or from a satellite feed and forwarded to the splicer. Special advert markers are sometimes included in this stream, which pinpoint the sections of the video stream that are allocated for ad inserts.
+Advert server—Advertisements are typically pre-recorded and stored digitally on this special purpose video server located at the IPTV provider’s data center. The server streams these advertisements to the splicer.
+Advert splicer—The purpose of this piece of hardware is to insert adverts retrieved from the advert server into the IPTV streams.
+Advertisement management system—This is a piece of software that runs on a PC or server. It ensures that the correct adverts are inserted into the correct IPTV streams at the specified time slots. Some of the more advanced systems support the creation of specific marketing campaigns based parameters such as programming type, geography, and demographic data.
+Broadband access router—This router streams the IP video streams with the embedded digital adverts on to the core and access IP networks.
+IP set-top box—The targeting of adverts over an IPTV network generally starts with the subscriber who uses their IPTV interface to create a personal profile that outlines the types of adverts they would like to view. This profile information and related viewing statistics is then used by advertising companies to reach IPTV subscribers who have an interest in a specific category of products or services.
+The deployment of an IPTV targeted advertising system is rarely implemented in isolation and is usually integrated into an IPTV data center in conjunction with a number of other third-party systems.
+
+
 #### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
