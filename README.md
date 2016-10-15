@@ -360,6 +360,51 @@ IPTV based EAS network components
 Once this device is live on the network, it is possible to automatically send text and digitized audio based EAS alert messages to IPTV end users.
 
 
+#### Digital Video Recording
+
+A hard disk needs to be incorporated into the IP set-top box to support DVR functionality; the ability to select programs, digitally record and store live TV content on a local hard disk.
+
+
+
+##### IP Set-Top DVRs
+The IP set-top DVR category may be subdivided primarily into standalone and multiroom devices.
+
+Stand-Alone IP Set-Top DVRs 
+IP DVR set-top boxes serve as a media hub when connected to an in-home networking system and allow IPTV subscribers to
+Pause and rewind live programming
+Record shows and movies on the set-top hard drive
+Replay video content at any time
+Most of the components at the core of an IP DVR set-top are almost identical to the parts used to build a standard IP multicast and unicast set-top box. The inclusion of a mechanical hard disk is the main differentiator of this type of IP set-top box. The main functions of the hard disk include
+Storing the IP set-top box’s key components of the OS and software code.
+Storing system and user data (such as profiles, configuration details, the system registry, updateable system files).
+Storing IP-VoD content.
+The following section provides a brief overview of mechanical hard disks when incorporated into an IP set-top box.
+
+##### IP Set-Top Hard Disks 
+The basic technical architecture of a hard disk that is integrated with an IP DVR set-top comprises of magnetic coated circles of material that contain stored information. 
+
+These circles are called platters and are stacked on top of each other to increase the storage capacity of the drive. Information is read from or stored to the hard disk using read and write heads.
+The hard disk is a nonvolatile, bulk storage medium that acts as a repository for video content. The main benefit of this medium versus standard RAM systems is the sheer capacity of these devices and their ability to continue storing contents when the IP set-top box is switched off.
+There are generally two types of internal bus interfaces used by drives integrated with IP set-top boxes—IDE and SATA.
+Integrated drive electronics (IDE)—The IDE bus also known as ATA (Advanced Technology Attachment) connects the hard drive to the IP set-top motherboard. The IDE standard has been around for many years and has undergone several revisions over time. When integrated into a set-top box an IDE drive is capable of communicating in speeds in excess of a 100 Mbps.
+Serial ATA (SATA)—ATA or IDE transfers data in parallel. SATA in contrast to the IDE standard uses a serial bus to communicate data. First generation SATA drives were released in 2001 and are capable of throughputs of 150 Mbps. 
+
+Over the last couple of years, a number of IP DVR set-top manufactures have started to install drives that are based on an extension to the original SATA standard—SATA II. The newer SATA II drives offer higher rate interface speeds compared to their predecessors. The improved read/write times associated with SATA II help to improve the operational efficiencies of next generation IPTV applications.
+While most DVR enabled IP set-top boxes use standard hard disks, some storage manufacturers have started to optimize their products for storing and streaming digital video streams. A drive optimized for DVR functionality inside an IP set-top box will generally include such features as
+Advanced cooling capabilities—Manufacturers can custom tune the cooling capabilities of IP set-top hard disks to improve overall power consumption of the unit.
+Small form factors—Hard disks with a form factor of only 3.5 in. are typically incorporated into IP set-top DVRs. The sizes of these drives will continue to decrease and 1.8 in. hard disk sizes are expected to become a standard feature in IP DVRs over the next couple of years.
+Concurrent reading and writing of hard disk—The simultaneous reading and writing of IPTV streams to disks allows consumers to time shift their viewing.
+High capacities—Video recording and IPTV streaming are very demanding of storage capacity. Therefore, IP set-top box hard disks come in a range of sizes from 100 GB to 1 TB (TeraByte) capacity. Next generation technologies such as perpendicular magnetic recording (PMR), heat-assisted magnetic recording (HAMR), and holographic recording are expected to exponentially increase capacity of IP set-top box hard disks.
+High RPMs (revolutions per minute)—The RPM characteristic of a hard disk measures the rotational speed of the hard disk. Drives that are capable of operating at high RPMs (typically 7200 and above) allow for smooth recording of IPTV content and subsequent playback.
+
+##### Multiroom IP Set-Top DVRs 
+
+With these types of set-tops, IPTV subscribers can receive and watch streamed video content stored on their DVR set-top box in various rooms around the house. Each one of these rooms typically requires an entry level IP set-top box to gain access to the video content. There are two approaches to implementing a multiroom system:
+
+A centralized storage architecture where only one IP set-top box that is connected to a home network includes a hard disk. Under this architecture the DVR functions are executed by the main or master IP DVR set-top box and the remaining non DVR capable digital set-top boxes assume the roles of access devices. The use of the centralized video storage architecture is a significant enhancement, however, IPTV subscribers cannot simultaneously access multiple programs from the DVR. In other words, the master IP DVR set-top box can only play one program at any particular instance in time.
+A distributed storage architecture where all IP set-top boxes connected to a home network include a hard disk.
+
+
 #### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
