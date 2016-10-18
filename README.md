@@ -497,6 +497,14 @@ Flickering—Flickering is caused because TV displays are interlaced. Without a 
 There is a gradual move across the world from old analog TV sets toward digital and high definition televisions, which deliver better picture, sound, and overall stability. Eventually there will be global deployment of these. When this happens the development of Web pages for IPTV Web portals will become more straightforward. Until that happens, content creators will need to comply with the various guidelines outlined above. From a market demand perspective, TV viewers are more accustomed to watching TV than viewing a Web page on its screens. However, this author is more optimistic than ever that the concept of walled gardens will eventually catch on and firmly believes that IPTV will act as a catalyst for increasing the popularity of this application.
 
 
+#### Instant IPTV Messaging
+
+This application uses “presence technology” to allow subscribers to use their televisions to participate in interactive chat forums. The network service provider decides on the types of chat forums that are available to their customer base. From a technical perspective the IPTV operator needs to install a powerful community chat server in the headend. Chat servers are easily customizable and seamlessly integrate with advertisement banners.
+The client IPTV application has very low memory and processor requirements and makes it very suitable for use in IPTVCDs. Most IPTV chat programs offer one-to-one and one-to-many communication channels. 
+
+New versions of IPTV messaging software applications allow interactive TV designers to split the TV screen into two frames. The first frame includes the forum, while the second frame displays the related TV program.
+
+
 #### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
