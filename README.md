@@ -505,6 +505,13 @@ The client IPTV application has very low memory and processor requirements and m
 New versions of IPTV messaging software applications allow interactive TV designers to split the TV screen into two frames. The first frame includes the forum, while the second frame displays the related TV program.
 
 
+#### IPTV-Commerce
+
+IPTV-commerce supports business activities and enables viewers to purchase goods through a TV using a remote control instead of a keyboard and an IPTVCD. The term IPTV-commerce can refer to online shopping, instant shopping, online betting, and home banking. In the case of instant shopping, end-users can purchase a product featured on an advertisement without having to leave the channel they are watching. 
+
+The ability to facilitate the provision of e-commerce via an IPTV platform helps to enhance the overall revenue stream of service providers. Security measures that apply to PC based e-commerce also apply to IPTV-commerce. This is an ideal application for people who are not comfortable with using their PC to buy online.
+
+
 #### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
