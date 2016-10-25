@@ -530,6 +530,13 @@ Parental control are processes that allow a person (such as a parent) to control
 IPTV networking platforms also include filtering systems that allow telecom operators and subscribers to restrict access to certain on-demand titles or broadcasting channels that contain inappropriate content. Channels or VoD titles requested by an IPTV subscriber are checked against a database of objectionable content. If the server finds that the material is rated, it will not allow that video asset to be passed on to the person making the request. The application itself uses PIN codes to enforce content filtering regulations.
 
 
+#### Personalized Channels
+
+The ability of IP based technologies to allow subscribers to create their own TV programs and to broadcast this on personalized channels is yet another application that helps to differentiate IPTV from traditional RF based TV services. Taking into account continuous evolution of services and end user’s requirements, personalized IPTV services are another hot research area. Users can perform trick mode operations like pause, rewind when watching live channel. When someone missed some TV shows, he or she can use rewind TV channel to desired time and watch at their feasible time. Thus, personalized IPTV services enable users to access and consume what they want, when and where they want in a personalized way. 
+
+In personalized IPTV services environment, we also need to know about content delivery operation and channel allocation algorithm according to service types such as linearTV(i.e., live TV), time-shifted TV and video on demand (VoD).
+
+
 #### Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
