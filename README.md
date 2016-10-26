@@ -9,7 +9,7 @@ Interactive services present users with various capabilities. The service provid
  4. Personalization & thematic specialization of existing services
  5. Appending content-oriented interactions to existing services
 
-![alt tag](https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/Images/Apple.png)
+![alt tag](https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Apple.png)
 
 
 ### Interactive IPTV Applications
