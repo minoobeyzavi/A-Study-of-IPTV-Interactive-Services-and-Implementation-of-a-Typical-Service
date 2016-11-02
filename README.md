@@ -30,7 +30,7 @@ In addition to allowing subscribers to watch linear video programming, IPTV brin
  7. GoD
  8. EAS
  9. DVR
- 10. Walled Garden Portal
+ 10. Walled Garden Portal 
  11. Instant Messaging
  12. IPTV-Commerce
  13. Social Networking
@@ -408,7 +408,7 @@ A distributed storage architecture where all IP set-top boxes connected to a hom
 #### Walled Garden Portal
 
 
-<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Portal.png" width="300">
+<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Portal.png" image-align="center" width="400">
 
 
 A walled garden portal is best defined as a Web portal or quasi-Web environment specifically developed for a TV environment. Within a walled garden, a viewer has access to a variety of content such as horoscopes, news, recipes, sports, weather, and internet applications such as e-mail and chat. In addition to providing content, some of the more advanced portals provide the following functionalities:
@@ -527,7 +527,7 @@ Typical features supported by this type of interactive IPTV application range fr
 
 The deployment of localized video content is seen by many telecom operators as a differentiator for IPTV. Most of the content delivered by the media nowadays has a countrywide or international focus, with a limited emphasis on providing content that is local to particular geographical communities. With IPTV, telecom operators now have the ability to offer local information to their subscribers. The local content IPTV application typically allows subscribers to retrieve local weather, schedules for garbage collection, school announcements, results of sporting events, and traffic videos on their televisions.
 
-![alt tag](https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Parental%20Controls.png)
+<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Parental%20Controls.png" image-align="center" width="400">
 
 #### Parental Control
 
