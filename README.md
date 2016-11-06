@@ -9,7 +9,7 @@ Interactive services present users with various capabilities. The service provid
  4. Personalization & thematic specialization of existing services
  5. Appending content-oriented interactions to existing services
 
-<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Apple.png" align="middle">
+<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Apple.png" style="float: middle;">
 
 
 ### Interactive IPTV Applications
@@ -408,7 +408,7 @@ A distributed storage architecture where all IP set-top boxes connected to a hom
 #### Walled Garden Portal
 
 
-<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Portal.png" align="middle" width="400">
+<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Portal.png" style="float: middle;">
 
 
 A walled garden portal is best defined as a Web portal or quasi-Web environment specifically developed for a TV environment. Within a walled garden, a viewer has access to a variety of content such as horoscopes, news, recipes, sports, weather, and internet applications such as e-mail and chat. In addition to providing content, some of the more advanced portals provide the following functionalities:
@@ -527,7 +527,7 @@ Typical features supported by this type of interactive IPTV application range fr
 
 The deployment of localized video content is seen by many telecom operators as a differentiator for IPTV. Most of the content delivered by the media nowadays has a countrywide or international focus, with a limited emphasis on providing content that is local to particular geographical communities. With IPTV, telecom operators now have the ability to offer local information to their subscribers. The local content IPTV application typically allows subscribers to retrieve local weather, schedules for garbage collection, school announcements, results of sporting events, and traffic videos on their televisions.
 
-<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Parental%20Controls.png" align="middle" width="500">
+<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Parental%20Controls.png" style="float: middle;">
 
 #### Parental Control
 
@@ -539,7 +539,7 @@ IPTV networking platforms also include filtering systems that allow telecom oper
 
 The ability of IP based technologies to allow subscribers to create their own TV programs and to broadcast this on personalized channels is yet another application that helps to differentiate IPTV from traditional RF based TV services. Taking into account continuous evolution of services and end user’s requirements, personalized IPTV services are another hot research area. Users can perform trick mode operations like pause, rewind when watching live channel. When someone missed some TV shows, he or she can use rewind TV channel to desired time and watch at their feasible time. Thus, personalized IPTV services enable users to access and consume what they want, when and where they want in a personalized way. 
 
-<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Personalized.png" align="middle" width="500">
+<img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Personalized.png" style="float: middle;">
 
 In personalized IPTV services environment, we also need to know about content delivery operation and channel allocation algorithm according to service types such as linearTV(i.e., live TV), time-shifted TV and video on demand (VoD).
 
