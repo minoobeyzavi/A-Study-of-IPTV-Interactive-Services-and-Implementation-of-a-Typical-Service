@@ -44,7 +44,7 @@ To get the right interactive services to meet consumer demands will require expe
 
 
  
-#### Electronic Programming Guide
+#### 1. Electronic Programming Guide
 
 Since IPTV brings into the home many more channels and services, people need a way of navigating the myriad of choices. An application that does this is typically referred to as an electronic program guide. An EPG, also known as intelligent program guides (IPG), is an interface application that allows IPTV subscribers to preview, select, and connect to various types of IP and interactive TV services. The EPG application is generally a standard part of an IPTV service offering and is commonly used to navigate through a growing number of channels and sources of video content available to subscribers. An EPG presents IPTV subscribers with a menu of available IPTV channels in HTML format and a remote control is typically used to navigate this menu. Owing to the two-way nature of IPTV networks, it is possible to include several full days of programming information for every channel and detailed descriptions of every program within each channel. In addition, subscribers are able to search by genre, program title, channel, and even by time. Once a channel is selected, the video content is downloaded over the broadband network for immediate viewing. The EPG application is usually displayed on the TV screen in tabular or grid format. This type of design is generally easy to read and understand. It is however possible to change the look and feel of the EPG interface to meet the branding requirements of different IPTV service providers. The communication process between the client EPG application running on the IP set-top box and the server application uses standard Internet protocols. If the IPTV transmission network is using multicasting, then the program descriptions retrieved by the IP set-top box also contain port numbers and related multicast IP addresses.
 
@@ -121,7 +121,7 @@ The EPG network architecture described above relies on the ability of the
 network and backend servers to respond immediately to EPG instructions. On some occasions IPTV end users may experience delays due to congestion or other issues that slow down the processing of EPG requests. Where this occurs on a regular basis, service providers have an option of using an architecture that involves processing the EPG locally on the IPTVCD. Under this approach the basic EPG application normally resides in the IPTVCD’s storage system and accesses current meta-data from the IP network. Local storage of the EPG application speeds up broadband network response times for the end-user because it launches and operates immediately once the IPTVCD is powered on.
 
 
-#### IP Based Video on Demand (VoD)
+#### 2. IP Based Video on Demand (VoD)
 
 IPTV is often provided in conjunction with VoD. As the name implies VoD is a service that allows subscribers to select and download video content over an IP network. The content typically includes a library of films, music videos, and recorded television programs. The deployment of a VoD system falls into two broad categories:
 
@@ -205,7 +205,7 @@ A deployment of a generic IP-VoD system architecture is based on a client/server
 In addition to allowing subscribers to select and download specific movies a typical IP-VoD client application also supports content searching and stream control functionality. An implementation of the client IP-VoD application is typically implemented through an embedded HTML browser.
 
 
-#### IPTV Browsing
+#### 3. IPTV Browsing
 
 Many IPTV network operators provide viewers with access to the Web. This can be in the form of either TV-based Web browsing (WebTV) or Walled gardens. TV based Web browsing is similar to browsing on a PC but it is TV based. Since many Web pages are not tailored for viewing on TV, some network operators provide an embedded browser on their IP set-top boxes that change a Web page automatically. Such software can be provided as part of a middleware platform. 
 
@@ -243,7 +243,7 @@ When using a resource constrained device such as a set-top box to browse the Web
 Note that in addition to the above technologies, a high speed and resilient connection to the public Internet is also required for IPTV browsing services.
 
 
-#### IPTV E-Mail
+#### 4. IPTV E-Mail
 
 From the earliest days of society people have used various systems and technologies to communicate with each other. With the recent explosion of the Internet, the most popular means of communicating between computers is electronic mail (e-mail). With the advent of IPTV, e-mail is now poised to enter the living room.
 
@@ -271,7 +271,7 @@ IMAP—stands for Internet Message Access Protocol, the latest version of this p
 Every IPTV subscriber that avails of the e-mail service receives a unique e-mail address and a mailbox. The mailboxes are stored and managed on mail server gateways at the IPTV data center. These servers are connected to the Internet and also interface with the OBSS for billing purposes. The mail server gateway is a software program that runs on a mail server and links the IPTV network through a firewall to the public Internet.
 
 
-#### IPTV E-Mail
+##### IPTV E-Mail
 
 From the earliest days of society people have used various systems and technologies to communicate with each other. With the recent explosion of the Internet, the most popular means of communicating between computers is electronic mail (e-mail). With the advent of IPTV, e-mail is now poised to enter the living room.
 
@@ -293,12 +293,12 @@ MIME—stands for Multipurpose Internet Mail Extensions. MIME is an Internet sta
 POP3—stands for Post Office Protocol version 3. It is used by IPTVCD e-mail clients to access messages stored on the mail server.
 IMAP—stands for Internet Message Access Protocol, the latest version of this protocol, IMAP4, has similar functionality to POP3 but does support additional features, which are useful for IPTV end users. E-mail searching using keywords while the e-mails remain on the server is one example of an IMAP feature that is not supported by POP3.
 
-##### E-Mail Servers 
+##### 5. E-Mail Servers 
 
 Every IPTV subscriber that avails of the e-mail service receives a unique e-mail address and a mailbox. The mailboxes are stored and managed on mail server gateways at the IPTV data center. These servers are connected to the Internet and also interface with the OBSS for billing purposes. The mail server gateway is a software program that runs on a mail server and links the IPTV network through a firewall to the public Internet.
 
 
-#### Caller ID for TVs
+#### 6. Caller ID for TVs
 
 This IPTV application allows consumers who have subscribed to a caller ID service through their telephone company to view caller information on the TV screen. In other words, when the phone rings a pop-up window appears on the television to notify the end user of the name and phone number of the incoming caller. 
 
@@ -311,7 +311,7 @@ A client IPTVCD software application—the display of caller ID details on a TV 
 The caller ID application can also be used to display notifications of other types of incoming messaging services including voicemails, and text messages. The caller ID for TVs is an extremely popular application amongst IPTV subscribers and is one practical example of how converged services will have an impact on people’s lives in the years ahead.
 
 
-#### IPTV Advertising
+#### 7. IPTV Advertising
 
 The use of interactive TV as a medium to deliver advertising is rapidly emerging into a mainstream application. The fact that it allows advertisers and service providers to engage consumers with a compelling suite of advertisements is considered to be one of the main drivers of this type of IPTV application. IPTV is capable of supporting a range of different IPTV ad formats, including telescoped long form adverts and integrated links that are embedded directly into the content. 
 
@@ -333,7 +333,7 @@ IP set-top box—The targeting of adverts over an IPTV network generally starts 
 The deployment of an IPTV targeted advertising system is rarely implemented in isolation and is usually integrated into an IPTV data center in conjunction with a number of other third-party systems.
 
 
-#### Gaming on Demand (GoD)
+#### 8. Gaming on Demand (GoD)
 
 IPTV technologies also allow telecom operators to deliver interactive TV gaming applications to their customers. The addition of online gaming applications to a portfolio of IPTV services can not only help to generate additional revenue streams for telecom operators but also reduce customer churn. In addition to subscriptions, IPTV providers can also place adverts in IP based games that connect advertisers with end users. The GoD application allows IPTV subscribers to
 
@@ -347,7 +347,7 @@ Online gaming client applications—IPTV gaming applications run locally or remo
 Although games deployed by IPTV systems are a far cry from the advanced games that are played on dedicated game consoles, the level of sophistication used by IPTV games has improved dramatically in recent times and this trend is expected to continue into the future.
 
 
-##### IPTV Based EAS
+#### 9. IPTV Based EAS
 
 Digital TV systems based in the United States will typically interoperate with a national system called the Emergency Alert Systems (EAS). 
 
@@ -360,7 +360,7 @@ IPTV based EAS network components
 Once this device is live on the network, it is possible to automatically send text and digitized audio based EAS alert messages to IPTV end users.
 
 
-#### Digital Video Recording
+#### 10. Digital Video Recording (DVR)
 
 A hard disk needs to be incorporated into the IP set-top box to support DVR functionality; the ability to select programs, digitally record and store live TV content on a local hard disk.
 
@@ -405,7 +405,7 @@ A centralized storage architecture where only one IP set-top box that is connect
 A distributed storage architecture where all IP set-top boxes connected to a home network include a hard disk.
 
 
-#### Walled Garden Portal
+#### 10. Walled Garden Portal
 
 
 </br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Portal.png" width="400"></div></br>
@@ -501,7 +501,7 @@ Flickering—Flickering is caused because TV displays are interlaced. Without a 
 There is a gradual move across the world from old analog TV sets toward digital and high definition televisions, which deliver better picture, sound, and overall stability. Eventually there will be global deployment of these. When this happens the development of Web pages for IPTV Web portals will become more straightforward. Until that happens, content creators will need to comply with the various guidelines outlined above. From a market demand perspective, TV viewers are more accustomed to watching TV than viewing a Web page on its screens. However, this author is more optimistic than ever that the concept of walled gardens will eventually catch on and firmly believes that IPTV will act as a catalyst for increasing the popularity of this application.
 
 
-#### Instant IPTV Messaging
+#### 11. Instant IPTV Messaging
 
 This application uses “presence technology” to allow subscribers to use their televisions to participate in interactive chat forums. The network service provider decides on the types of chat forums that are available to their customer base. From a technical perspective the IPTV operator needs to install a powerful community chat server in the headend. Chat servers are easily customizable and seamlessly integrate with advertisement banners.
 The client IPTV application has very low memory and processor requirements and makes it very suitable for use in IPTVCDs. Most IPTV chat programs offer one-to-one and one-to-many communication channels. 
@@ -509,33 +509,33 @@ The client IPTV application has very low memory and processor requirements and m
 New versions of IPTV messaging software applications allow interactive TV designers to split the TV screen into two frames. The first frame includes the forum, while the second frame displays the related TV program.
 
 
-#### IPTV-Commerce
+#### 12. IPTV-Commerce
 
 IPTV-commerce supports business activities and enables viewers to purchase goods through a TV using a remote control instead of a keyboard and an IPTVCD. The term IPTV-commerce can refer to online shopping, instant shopping, online betting, and home banking. In the case of instant shopping, end-users can purchase a product featured on an advertisement without having to leave the channel they are watching. 
 
 The ability to facilitate the provision of e-commerce via an IPTV platform helps to enhance the overall revenue stream of service providers. Security measures that apply to PC based e-commerce also apply to IPTV-commerce. This is an ideal application for people who are not comfortable with using their PC to buy online.
 
 
-#### IPTV Social Networking
+#### 13. IPTV Social Networking
 
 The popularity of Internet based social networking sites has grown rapidly over the past couple of years. IPTV facilitates the expansion of the phenomena of social networking onto the television. Implementing a social networking environment on a TV set requires specialized software on both the IPTVCD and the backend servers. 
 
 Typical features supported by this type of interactive IPTV application range from buddy lists that allow IPTV subscribers to view what their friends are watching on television to real-time chatting while watching the same program.
 
 
-#### Localized Video Content
+#### 14. Localized Video Content
 
 The deployment of localized video content is seen by many telecom operators as a differentiator for IPTV. Most of the content delivered by the media nowadays has a countrywide or international focus, with a limited emphasis on providing content that is local to particular geographical communities. With IPTV, telecom operators now have the ability to offer local information to their subscribers. The local content IPTV application typically allows subscribers to retrieve local weather, schedules for garbage collection, school announcements, results of sporting events, and traffic videos on their televisions.
 
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Parental%20Controls.png" width="500"></div>
 
-#### Parental Control
+#### 15. Parental Control
 
 Parental control are processes that allow a person (such as a parent) to control the access rights of another person (such as a child).
 IPTV networking platforms also include filtering systems that allow telecom operators and subscribers to restrict access to certain on-demand titles or broadcasting channels that contain inappropriate content. Channels or VoD titles requested by an IPTV subscriber are checked against a database of objectionable content. If the server finds that the material is rated, it will not allow that video asset to be passed on to the person making the request. The application itself uses PIN codes to enforce content filtering regulations.
 
 
-#### Personalized Channels
+#### 16. Personalized Channels
 
 The ability of IP based technologies to allow subscribers to create their own TV programs and to broadcast this on personalized channels is yet another application that helps to differentiate IPTV from traditional RF based TV services. Taking into account continuous evolution of services and end user’s requirements, personalized IPTV services are another hot research area. Users can perform trick mode operations like pause, rewind when watching live channel. When someone missed some TV shows, he or she can use rewind TV channel to desired time and watch at their feasible time. Thus, personalized IPTV services enable users to access and consume what they want, when and where they want in a personalized way. 
 
@@ -544,7 +544,7 @@ The ability of IP based technologies to allow subscribers to create their own TV
 In personalized IPTV services environment, we also need to know about content delivery operation and channel allocation algorithm according to service types such as linearTV(i.e., live TV), time-shifted TV and video on demand (VoD).
 
 
-#### Weather Forecast
+#### 17. Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
 IPTV network operators provide an embedded software application on their IP set-top boxes that receives data about current weather conditions and displays this information on the TV screen. Such software can be provided as part of a middleware platform.
