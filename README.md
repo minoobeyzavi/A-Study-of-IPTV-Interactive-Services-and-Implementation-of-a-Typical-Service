@@ -21,23 +21,23 @@ It can provide viewers with access to further information, communication applica
 In addition to allowing subscribers to watch linear video programming, IPTV brings Web-like interactivity to the traditional TV viewing experience. It allows service providers to differentiate their offerings from traditional television services. For consumers it allows them to view hundreds of channels, simultaneously record TV material, and access a range of interactive TV services including
 
 ### Types of Commercial Interactive Services
- 1. Electronic Programming Guide
- 2. VoD
- 3. Browsing
- 4. E-mail
- 5. Caller ID
- 6. Advertising
- 7. GoD
- 8. EAS
- 9. DVR
- 10. Walled Garden Portal 
- 11. Instant Messaging
- 12. IPTV-Commerce
- 13. Social Networking
- 14. Localized Video Content
- 15. Parental Control
- 16. Personalized Channels
- 17. Weather Forcast
+ ##### 1. Electronic Programming Guide
+ ##### 2. VoD
+ ##### 3. Browsing
+ ##### 4. E-mail
+ ##### 5. Caller ID
+ ##### 6. Advertising
+ ##### 7. GoD
+ ##### 8. EAS
+ ##### 9. DVR
+ ##### 10. Walled Garden Portal 
+ ##### 11. Instant Messaging
+ ##### 12. IPTV-Commerce
+ ##### 13. Social Networking
+ ##### 14. Localized Video Content
+ ##### 15. Parental Control
+ ##### 16. Personalized Channels
+ ##### 17. Weather Forcast
 
 Interactive television will provide genuinely useful applications that enhance the overall user experience of IPTV. Interactive services must be seen as part of the overall infrastructure of delivering television – not just a bolt on.
 To get the right interactive services to meet consumer demands will require experimentation. Content providers, broadcasters and network owners need to develop, trial, refine and roll-out interactive services. A lot has been learnt over the past ten years about interactive TV. This knowledge can help inform the design of interactive services for IPTV.
