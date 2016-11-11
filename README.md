@@ -42,7 +42,9 @@ In addition to allowing subscribers to watch linear video programming, IPTV brin
 Interactive television will provide genuinely useful applications that enhance the overall user experience of IPTV. Interactive services must be seen as part of the overall infrastructure of delivering television – not just a bolt on.
 To get the right interactive services to meet consumer demands will require experimentation. Content providers, broadcasters and network owners need to develop, trial, refine and roll-out interactive services. A lot has been learnt over the past ten years about interactive TV. This knowledge can help inform the design of interactive services for IPTV.
 
+
 <div id="EPG"></div>
+
 
 #### 1. Electronic Programming Guide
 
