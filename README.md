@@ -22,29 +22,29 @@ In addition to allowing subscribers to watch linear video programming, IPTV brin
 
 ### Types of Commercial Interactive Services
 ##### <a href="#EPG">1. Electronic Programming Guide</a>
-##### 2. VoD
-##### 3. Browsing
-##### 4. E-mail
-##### 5. Caller ID
-##### 6. Advertising
-##### 7. GoD
-##### 8. EAS
-##### 9. DVR
-##### 10. Walled Garden Portal 
-##### 11. Instant Messaging
-##### 12. IPTV-Commerce
-##### 13. Social Networking
-##### 14. Localized Video Content
-##### 15. Parental Control
-##### 16. Personalized Channels
-##### 17. Weather Forcast
+##### <a href="#VoD">2. VoD</a>
+##### <a href="#Browsing">3. Browsing</a>
+##### <a href="#E-mail">4. E-mail</a>
+##### <a href="#CallerID">5. Caller ID</a>
+##### <a href="#Advertising">6. Advertising</a>
+##### <a href="#God">7. GoD</a>
+##### <a href="#EAS">8. EAS</a>
+##### <a href="#DVR">9. DVR</a>
+##### <a href="#WGP">10. Walled Garden Portal</a> 
+##### <a href="#IM">11. Instant Messaging</a>
+##### <a href="#Commerce">12. IPTV-Commerce</a>
+##### <a href="#Social">13. Social Networking</a>
+##### <a href="#Localized">14. Localized Video Content</a>
+##### <a href="#Parental">15. Parental Control</a>
+##### <a href="#Personalized">16. Personalized Channels</a>
+##### <a href="#Weather">17. Weather Forcast</a>
 
 Interactive television will provide genuinely useful applications that enhance the overall user experience of IPTV. Interactive services must be seen as part of the overall infrastructure of delivering television – not just a bolt on.
 To get the right interactive services to meet consumer demands will require experimentation. Content providers, broadcasters and network owners need to develop, trial, refine and roll-out interactive services. A lot has been learnt over the past ten years about interactive TV. This knowledge can help inform the design of interactive services for IPTV.
 
 
- 
-#### <div id="EPG">1. Electronic Programming Guide</div>
+<div id="EPG"></div> 
+#### 1. Electronic Programming Guide
 
 Since IPTV brings into the home many more channels and services, people need a way of navigating the myriad of choices. An application that does this is typically referred to as an electronic program guide. An EPG, also known as intelligent program guides (IPG), is an interface application that allows IPTV subscribers to preview, select, and connect to various types of IP and interactive TV services. The EPG application is generally a standard part of an IPTV service offering and is commonly used to navigate through a growing number of channels and sources of video content available to subscribers. An EPG presents IPTV subscribers with a menu of available IPTV channels in HTML format and a remote control is typically used to navigate this menu. Owing to the two-way nature of IPTV networks, it is possible to include several full days of programming information for every channel and detailed descriptions of every program within each channel. In addition, subscribers are able to search by genre, program title, channel, and even by time. Once a channel is selected, the video content is downloaded over the broadband network for immediate viewing. The EPG application is usually displayed on the TV screen in tabular or grid format. This type of design is generally easy to read and understand. It is however possible to change the look and feel of the EPG interface to meet the branding requirements of different IPTV service providers. The communication process between the client EPG application running on the IP set-top box and the server application uses standard Internet protocols. If the IPTV transmission network is using multicasting, then the program descriptions retrieved by the IP set-top box also contain port numbers and related multicast IP addresses.
 
