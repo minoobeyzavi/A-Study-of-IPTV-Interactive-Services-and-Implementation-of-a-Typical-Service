@@ -119,7 +119,7 @@ Step 4—The IPTV EPG server sends the results of the end-user request to the cl
 Step 5—Results are received, rendered, and the EPG page is layed out on the TV display for use by the end user.
 
 
-</br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/EPG.png" width="600"></div></br>
+</br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/EPG.png" width="800"></div></br>
 
 
 The EPG network architecture described above relies on the ability of the network and backend servers to respond immediately to EPG instructions. On some occasions IPTV end users may experience delays due to congestion or other issues that slow down the processing of EPG requests. Where this occurs on a regular basis, service providers have an option of using an architecture that involves processing the EPG locally on the IPTVCD. Under this approach the basic EPG application normally resides in the IPTVCD’s storage system and accesses current meta-data from the IP network. Local storage of the EPG application speeds up broadband network response times for the end-user because it launches and operates immediately once the IPTVCD is powered on.
