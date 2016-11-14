@@ -347,8 +347,7 @@ IP set-top box—The targeting of adverts over an IPTV network generally starts 
 The deployment of an IPTV targeted advertising system is rarely implemented in isolation and is usually integrated into an IPTV data center in conjunction with a number of other third-party systems.
 
 
-
-<div id="GoD" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/GoD.png" width="400"></div>
+<div id="GoD"></div></br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/GoD.png" width="400"></div>
 
 
 ### 7. Gaming on Demand (GoD)
