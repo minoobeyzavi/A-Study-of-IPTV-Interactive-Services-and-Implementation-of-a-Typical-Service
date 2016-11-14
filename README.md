@@ -43,7 +43,8 @@ Interactive television will provide genuinely useful applications that enhance t
 To get the right interactive services to meet consumer demands will require experimentation. Content providers, broadcasters and network owners need to develop, trial, refine and roll-out interactive services. A lot has been learnt over the past ten years about interactive TV. This knowledge can help inform the design of interactive services for IPTV.
 
 
-<div id="EPG" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/EPG.png" width="800"></div></br>
+<div id="EPG" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/EPG.png" width="800"></div>
+
 
 
 ### 1. Electronic Programming Guide(EPG)
@@ -344,6 +345,7 @@ Advertisement management system—This is a piece of software that runs on a PC 
 Broadband access router—This router streams the IP video streams with the embedded digital adverts on to the core and access IP networks.
 IP set-top box—The targeting of adverts over an IPTV network generally starts with the subscriber who uses their IPTV interface to create a personal profile that outlines the types of adverts they would like to view. This profile information and related viewing statistics is then used by advertising companies to reach IPTV subscribers who have an interest in a specific category of products or services.
 The deployment of an IPTV targeted advertising system is rarely implemented in isolation and is usually integrated into an IPTV data center in conjunction with a number of other third-party systems.
+
 
 
 <div id="GoD" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/GoD.png" width="400"></div>
