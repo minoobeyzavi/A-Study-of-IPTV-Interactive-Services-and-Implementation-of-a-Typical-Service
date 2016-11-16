@@ -428,9 +428,9 @@ A distributed storage architecture where all IP set-top boxes connected to a hom
 <div id="WGP"></div>
 
 
-### 10. Walled Garden Portal
+</br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/WGP.png" width="650"></div>
 
-</br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/WGP.png" width="650"></div></br>
+### 10. Walled Garden Portal
 
 A walled garden portal is best defined as a Web portal or quasi-Web environment specifically developed for a TV environment. Within a walled garden, a viewer has access to a variety of content such as horoscopes, news, recipes, sports, weather, and internet applications such as e-mail and chat. In addition to providing content, some of the more advanced portals provide the following functionalities:
 Registration services for various types of IPTV content services.
@@ -559,9 +559,9 @@ The deployment of localized video content is seen by many telecom operators as a
 <div id="Parental"></div>
 
 
-### 15. Parental Control
-
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/ParentalControl.jpeg" width="500"></div></br>
+
+### 15. Parental Control
 
 Parental control are processes that allow a person (such as a parent) to control the access rights of another person (such as a child).
 IPTV networking platforms also include filtering systems that allow telecom operators and subscribers to restrict access to certain on-demand titles or broadcasting channels that contain inappropriate content. Channels or VoD titles requested by an IPTV subscriber are checked against a database of objectionable content. If the server finds that the material is rated, it will not allow that video asset to be passed on to the person making the request. The application itself uses PIN codes to enforce content filtering regulations.
