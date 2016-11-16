@@ -556,12 +556,12 @@ Typical features supported by this type of interactive IPTV application range fr
 
 The deployment of localized video content is seen by many telecom operators as a differentiator for IPTV. Most of the content delivered by the media nowadays has a countrywide or international focus, with a limited emphasis on providing content that is local to particular geographical communities. With IPTV, telecom operators now have the ability to offer local information to their subscribers. The local content IPTV application typically allows subscribers to retrieve local weather, schedules for garbage collection, school announcements, results of sporting events, and traffic videos on their televisions.
 
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Parental%20Controls.png" width="500"></div>
-
 <div id="Parental"></div>
 
 
 ### 15. Parental Control
+
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/ParentalControl.jpeg" width="400"></div>
 
 Parental control are processes that allow a person (such as a parent) to control the access rights of another person (such as a child).
 IPTV networking platforms also include filtering systems that allow telecom operators and subscribers to restrict access to certain on-demand titles or broadcasting channels that contain inappropriate content. Channels or VoD titles requested by an IPTV subscriber are checked against a database of objectionable content. If the server finds that the material is rated, it will not allow that video asset to be passed on to the person making the request. The application itself uses PIN codes to enforce content filtering regulations.
