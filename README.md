@@ -1,4 +1,6 @@
 ## Review of IPTV Interactive Services and Implementation of a Typical Service
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/IPTV.png"></div>
+
 An interactive service is one that enables user to receive a transmission of data specially created for the recipient, or upon request, whether or not as part of a program, which is selected by or on behalf of the recipient.
 Interactive services present users with various capabilities. The service provider can combine these capabilities with other services to create two-way communications with the client. The application is implemented to be used on a platform, however it has the least confluence with the main processes of its platform and independently runs and interacts with the user.
 
@@ -9,7 +11,6 @@ Interactive services present users with various capabilities. The service provid
  4. Personalization & thematic specialization of existing services
  5. Appending content-oriented interactions to existing services
 
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/IPTV.png"></div>
 
 
 ### Interactive IPTV Applications
@@ -574,7 +575,7 @@ IPTV networking platforms also include filtering systems that allow telecom oper
 
 The ability of IP based technologies to allow subscribers to create their own TV programs and to broadcast this on personalized channels is yet another application that helps to differentiate IPTV from traditional RF based TV services. Taking into account continuous evolution of services and end user’s requirements, personalized IPTV services are another hot research area. Users can perform trick mode operations like pause, rewind when watching live channel. When someone missed some TV shows, he or she can use rewind TV channel to desired time and watch at their feasible time. Thus, personalized IPTV services enable users to access and consume what they want, when and where they want in a personalized way. 
 
-</br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Personalized.png" width="500"></div></br>
+<!--</br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Personalized.png" width="500"></div></br>-->
 
 In personalized IPTV services environment, we also need to know about content delivery operation and channel allocation algorithm according to service types such as linearTV(i.e., live TV), time-shifted TV and video on demand (VoD).
 
