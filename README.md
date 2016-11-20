@@ -545,7 +545,7 @@ IPTV-commerce supports business activities and enables viewers to purchase goods
 The ability to facilitate the provision of e-commerce via an IPTV platform helps to enhance the overall revenue stream of service providers. Security measures that apply to PC based e-commerce also apply to IPTV-commerce. This is an ideal application for people who are not comfortable with using their PC to buy online.
 
 <div id="Social"></div></br>
-<div><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Social.png" width="450"></div>
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Social.png" width="450"></div>
 
 ### 13. IPTV Social Networking
 
