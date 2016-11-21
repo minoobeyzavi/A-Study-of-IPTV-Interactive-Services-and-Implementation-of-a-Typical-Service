@@ -428,7 +428,7 @@ With these types of set-tops, IPTV subscribers can receive and watch streamed vi
 A centralized storage architecture where only one IP set-top box that is connected to a home network includes a hard disk. Under this architecture the DVR functions are executed by the main or master IP DVR set-top box and the remaining non DVR capable digital set-top boxes assume the roles of access devices. The use of the centralized video storage architecture is a significant enhancement, however, IPTV subscribers cannot simultaneously access multiple programs from the DVR. In other words, the master IP DVR set-top box can only play one program at any particular instance in time.
 A distributed storage architecture where all IP set-top boxes connected to a home network include a hard disk.
 
-<div id="WGP"></div></br></br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/WGP.png" width="700"></div>
+</br></br><div id="WGP" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/WGP.png" width="700"></div>
 
 ### 10. Walled Garden Portal
 
@@ -576,8 +576,8 @@ The ability of IP based technologies to allow subscribers to create their own TV
 
 In personalized IPTV services environment, we also need to know about content delivery operation and channel allocation algorithm according to service types such as linearTV(i.e., live TV), time-shifted TV and video on demand (VoD).
 
-<div id="Weather"></div></br>
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Weather.png" width="900"></div>
+</br>
+<div id="Weather" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Weather.png" width="900"></div>
 
 ### 17. Weather Forecast
 
