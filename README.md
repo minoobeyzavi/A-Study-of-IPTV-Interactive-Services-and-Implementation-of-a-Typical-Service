@@ -211,9 +211,8 @@ A deployment of a generic IP-VoD system architecture is based on a client/server
 
 In addition to allowing subscribers to select and download specific movies a typical IP-VoD client application also supports content searching and stream control functionality. An implementation of the client IP-VoD application is typically implemented through an embedded HTML browser.
 
-<div id="Browsing"></div>
-</br>
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Browsing.png" width="600"></div>
+<div id="Browsing"></div></br></br>
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Browsing.png" width="650"></div>
 
 ### 3. IPTV Browsing
 
@@ -429,10 +428,7 @@ With these types of set-tops, IPTV subscribers can receive and watch streamed vi
 A centralized storage architecture where only one IP set-top box that is connected to a home network includes a hard disk. Under this architecture the DVR functions are executed by the main or master IP DVR set-top box and the remaining non DVR capable digital set-top boxes assume the roles of access devices. The use of the centralized video storage architecture is a significant enhancement, however, IPTV subscribers cannot simultaneously access multiple programs from the DVR. In other words, the master IP DVR set-top box can only play one program at any particular instance in time.
 A distributed storage architecture where all IP set-top boxes connected to a home network include a hard disk.
 
-<div id="WGP"></div>
-
-
-</br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/WGP.png" width="650"></div>
+<div id="WGP"></div></br></br><div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/WGP.png" width="700"></div>
 
 ### 10. Walled Garden Portal
 
@@ -535,8 +531,8 @@ The client IPTV application has very low memory and processor requirements and m
 
 New versions of IPTV messaging software applications allow interactive TV designers to split the TV screen into two frames. The first frame includes the forum, while the second frame displays the related TV program.
 
-<div id="Commerce"></div></br>
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Commerce.png" width="700"></div>
+<div id="Commerce"></div></br></br>
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Commerce.png" width="650"></div>
 
 ### 12. IPTV-Commerce
 
@@ -544,7 +540,7 @@ IPTV-commerce supports business activities and enables viewers to purchase goods
 
 The ability to facilitate the provision of e-commerce via an IPTV platform helps to enhance the overall revenue stream of service providers. Security measures that apply to PC based e-commerce also apply to IPTV-commerce. This is an ideal application for people who are not comfortable with using their PC to buy online.
 
-<div id="Social"></div></br>
+<div id="Social"></div></br></br>
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Social.png" width="450"></div>
 
 ### 13. IPTV Social Networking
@@ -581,7 +577,7 @@ The ability of IP based technologies to allow subscribers to create their own TV
 In personalized IPTV services environment, we also need to know about content delivery operation and channel allocation algorithm according to service types such as linearTV(i.e., live TV), time-shifted TV and video on demand (VoD).
 
 <div id="Weather"></div></br>
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Weather.png" width="800"></div>
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Weather.png" width="900"></div>
 
 ### 17. Weather Forecast
 
