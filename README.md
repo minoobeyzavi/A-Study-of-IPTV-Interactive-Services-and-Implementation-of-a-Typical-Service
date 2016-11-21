@@ -576,7 +576,6 @@ The ability of IP based technologies to allow subscribers to create their own TV
 
 In personalized IPTV services environment, we also need to know about content delivery operation and channel allocation algorithm according to service types such as linearTV(i.e., live TV), time-shifted TV and video on demand (VoD).
 
-</br>
 <div id="Weather" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Weather.png" width="900"></div>
 
 ### 17. Weather Forecast
