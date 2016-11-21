@@ -560,9 +560,7 @@ Typical features supported by this type of interactive IPTV application range fr
 
 The deployment of localized video content is seen by many telecom operators as a differentiator for IPTV. Most of the content delivered by the media nowadays has a countrywide or international focus, with a limited emphasis on providing content that is local to particular geographical communities. With IPTV, telecom operators now have the ability to offer local information to their subscribers. The local content IPTV application typically allows subscribers to retrieve local weather, schedules for garbage collection, school announcements, results of sporting events, and traffic videos on their televisions.
 
-<div id="Parental"></div></br>
-
-
+<div id="Parental"></div></br></br>
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/ParentalControl.jpeg" width="500"></div>
 
 
@@ -583,7 +581,7 @@ The ability of IP based technologies to allow subscribers to create their own TV
 In personalized IPTV services environment, we also need to know about content delivery operation and channel allocation algorithm according to service types such as linearTV(i.e., live TV), time-shifted TV and video on demand (VoD).
 
 <div id="Weather"></div></br>
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Weather.png" width="700"></div>
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Weather.png" width="800"></div>
 
 ### 17. Weather Forecast
 
