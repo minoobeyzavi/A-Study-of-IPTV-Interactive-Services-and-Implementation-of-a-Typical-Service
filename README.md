@@ -366,7 +366,7 @@ Gaming servers—A client-server computing architecture is generally used to dep
 Online gaming client applications—IPTV gaming applications run locally or remotely, dependent on the hardware capabilities of the IPTVCD. A remote control or specialized joystick is typically used to play the games. The UDP/IP protocol layers of the IPTVCM are used to carry the gaming content both upstream and downstream to the client IPTVCD.
 Although games deployed by IPTV systems are a far cry from the advanced games that are played on dedicated game consoles, the level of sophistication used by IPTV games has improved dramatically in recent times and this trend is expected to continue into the future.
 
-<div id="EAS"></div>
+</br></br><div id="EAS"></div>
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/EAS.jpg" width="400"></div>
 
 ### 8. IPTV Based EAS
