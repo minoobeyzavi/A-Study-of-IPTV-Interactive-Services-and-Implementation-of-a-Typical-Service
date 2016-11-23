@@ -550,7 +550,7 @@ The popularity of Internet based social networking sites has grown rapidly over 
 Typical features supported by this type of interactive IPTV application range from buddy lists that allow IPTV subscribers to view what their friends are watching on television to real-time chatting while watching the same program.
 
 <div id="Localized"></div>
-
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Localized.png" width="700"></div>
 
 ### 14. Localized Video Content
 
