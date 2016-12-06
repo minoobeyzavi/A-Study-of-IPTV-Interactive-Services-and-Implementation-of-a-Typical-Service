@@ -325,7 +325,7 @@ An application server—This server is normally located in the IPTV data center 
 A client IPTVCD software application—the display of caller ID details on a TV requires the installation or activation of a specialized piece of software on the IPTVCD. This software module integrates with the IPTVCD operating system and is typically branded by the IPTV service provider. This application is responsible for ensuring that the name and number of the incoming caller appears on the subscriber’s TV screen.
 The caller ID application can also be used to display notifications of other types of incoming messaging services including voicemails, and text messages. The caller ID for TVs is an extremely popular application amongst IPTV subscribers and is one practical example of how converged services will have an impact on people’s lives in the years ahead.
 
-</br><div id="Advertising" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Advertising.png" width="500"></div>
+</br><div id="Advertising" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/IPTVads.jpg" width="700"></div>
 
 ### 6. IPTV Advertising
 
