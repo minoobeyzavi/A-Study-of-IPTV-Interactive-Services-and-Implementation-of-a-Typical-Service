@@ -251,9 +251,8 @@ The hardware requirements for a Web server will vary according to the level of i
 When using a resource constrained device such as a set-top box to browse the Web, it makes sense to incorporate optimized caching within the overall system architecture. The caching servers are normally located at the IPTV service provider’s regional office at the edge of the core IP backbone network. The caching technique employed by IPTV systems involves the storage of popular Web pages on the server. The various caching servers used by an IPTV browsing application use standardized communication protocols to “talk to each other,” thus ensuring that local Web pages are kept current. Caching servers fall into two broad categories: software that runs on a standard server or a dedicated hardware platform.
 Note that in addition to the above technologies, a high speed and resilient connection to the public Internet is also required for IPTV browsing services.
 
-
-<div id="E-mail"></div>
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Email.png" width="400"></div>
+</br>
+<div id="E-mail" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Email.png" width="400"></div>
 
 ### 4. IPTV E-Mail
 
