@@ -253,7 +253,7 @@ Note that in addition to the above technologies, a high speed and resilient conn
 
 
 <div id="E-mail"></div>
-
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Email.png" width="400"></div>
 
 ### 4. IPTV E-Mail
 
