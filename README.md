@@ -519,8 +519,7 @@ Blooming—In interlaced scanning, brighter scan lines are wider than darker one
 Flickering—Flickering is caused because TV displays are interlaced. Without a flicker filter, a thin horizontal line just one-pixel thick would appear to flicker on and off. Horizontal lines should be at least 2 pixels in width. Similarly, horizontal edges between two contrasting colors would pulsate.
 There is a gradual move across the world from old analog TV sets toward digital and high definition televisions, which deliver better picture, sound, and overall stability. Eventually there will be global deployment of these. When this happens the development of Web pages for IPTV Web portals will become more straightforward. Until that happens, content creators will need to comply with the various guidelines outlined above. From a market demand perspective, TV viewers are more accustomed to watching TV than viewing a Web page on its screens. However, this author is more optimistic than ever that the concept of walled gardens will eventually catch on and firmly believes that IPTV will act as a catalyst for increasing the popularity of this application.
 
-<div id="IM"></div>
-
+<div id="IM" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Messaging.png" width="400"></div>
 
 ### 11. Instant IPTV Messaging
 
