@@ -379,7 +379,7 @@ IPTV based EAS network components
 
 Once this device is live on the network, it is possible to automatically send text and digitized audio based EAS alert messages to IPTV end users.
 
-<div id="DVR"></div>
+</br><div id="DVR" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/DVR.png" width="400"></div>
 
 
 ### 9. Digital Video Recording (DVR)
