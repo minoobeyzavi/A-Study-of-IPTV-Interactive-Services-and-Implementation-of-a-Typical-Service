@@ -365,7 +365,7 @@ Online gaming client applications—IPTV gaming applications run locally or remo
 Although games deployed by IPTV systems are a far cry from the advanced games that are played on dedicated game consoles, the level of sophistication used by IPTV games has improved dramatically in recent times and this trend is expected to continue into the future.
 
 </br></br><div id="EAS"></div>
-<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/EAS.png" width="600"></div>
+<div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/EAS.png" width="400"></div>
 
 ### 8. IPTV Based EAS
 
