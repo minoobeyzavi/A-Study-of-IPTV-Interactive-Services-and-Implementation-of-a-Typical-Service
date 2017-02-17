@@ -1,4 +1,4 @@
-### Review of IPTV Interactive Services and Implementation of a Typical Service
+### A Study of IPTV Interactive Services and Implementation of a Typical Service
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/AppleTV.png" width="1000"></div>
 
 An interactive service is one that enables user to receive a transmission of data specially created for the recipient, or upon request, whether or not as part of a program, which is selected by or on behalf of the recipient.
