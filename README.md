@@ -1,11 +1,11 @@
-### A Study of IPTV Interactive Services and Implementation of a Typical Service
+# A Study of IPTV Interactive Services and Implementation of a Typical Service
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/AppleTV.png" width="1000"></div>
 
 An interactive service is one that enables user to receive a transmission of data especially created for the recipient, or upon request, whether or not as part of a program, which is selected by or on behalf of the recipient.
 Interactive services present users with various capabilities. The service provider can combine these capabilities with other services to create two-way communications with the client. The application is implemented to be used on a platform, however it has the least confluence with the main processes of its platform and independently runs and interacts with the user.
 
 
-### Commercial Innovation Strategies and Implementation Patterns in Interactive Services
+## Commercial Innovation Strategies and Implementation Patterns in Interactive Services
  1. Adding supplemental features to existing services
  2. New interaction-based services
  3. Side-mode integration of existing services
@@ -616,3 +616,23 @@ Checking for new information periodically and keeping the data up to date.
 
 The hardware requirements for a Web server will vary according to the level of interaction between the IP set-top box and the Web server.
 We should note that in addition to the web server and the weather application, we also need a broadband connection to the Internet to deploy this service on an IPTV platform.
+
+## References
+
+* O'Driscoll, G. (2008). *Next Generation IPTV Services and Technologies*. John Wiley & Sons.
+
+## References
+
+* **[ODriscoll2008]** O'Driscoll, Gerard. (2008). *Next Generation IPTV Services and Technologies*. John Wiley & Sons. ISBN: `978-0-470-16372-6`.
+
+
+## Citations
+
+```bibtex
+@book{odriscoll2008next,
+  title={Next Generation IPTV Services and Technologies},
+  author={O'Driscoll, Gerard},
+  year={2008},
+  publisher={John Wiley & Sons},
+  isbn={9780470163726}
+}
