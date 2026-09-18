@@ -620,19 +620,3 @@ We should note that in addition to the web server and the weather application, w
 ## References
 
 * O'Driscoll, G. (2008). *Next Generation IPTV Services and Technologies*. John Wiley & Sons.
-
-## References
-
-* **[ODriscoll2008]** O'Driscoll, Gerard. (2008). *Next Generation IPTV Services and Technologies*. John Wiley & Sons. ISBN: `978-0-470-16372-6`.
-
-
-## Citations
-
-```bibtex
-@book{odriscoll2008next,
-  title={Next Generation IPTV Services and Technologies},
-  author={O'Driscoll, Gerard},
-  year={2008},
-  publisher={John Wiley & Sons},
-  isbn={9780470163726}
-}
