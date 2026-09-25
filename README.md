@@ -5,15 +5,6 @@ An interactive service is one that enables user to receive a transmission of dat
 Interactive services present users with various capabilities. The service provider can combine these capabilities with other services to create two-way communications with the client. The application is implemented to be used on a platform, however it has the least confluence with the main processes of its platform and independently runs and interacts with the user.
 
 
-## Commercial Innovation Strategies and Implementation Patterns in Interactive Services
- 1. Adding supplemental features to existing services
- 2. New interaction-based services
- 3. Side-mode integration of existing services
- 4. Personalization & thematic specialization of existing services
- 5. Appending content-oriented interactions to existing services
-
-
-
 ## Interactive IPTV Applications
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/IPTV.png" width="500"></div>
 
@@ -590,7 +581,6 @@ The weather application written for IPTVCDs need the same robust functionality f
 The weather forecast software runs on top of the underlying real-time OS and middleware platforms and typically provides the following functionality:
 It gives you instant access to real-time local weather and alerts you whenever severe storms threaten. You're just one step away from detailed information on your local weather conditions as well as your favorite cities worldwide. More advanced versions can also provide:
 
-
 weather maps
 animated radar
 hourly and daily forecasts
@@ -613,9 +603,17 @@ A Web server, also known as an HTTP server, is basically a file server. A Web se
 Connecting to various weather servers through the Internet;
 Checking for new information periodically and keeping the data up to date.
 
-
 The hardware requirements for a Web server will vary according to the level of interaction between the IP set-top box and the Web server.
 We should note that in addition to the web server and the weather application, we also need a broadband connection to the Internet to deploy this service on an IPTV platform.
+
+
+## Commercial Innovation Strategies and Implementation Patterns in Interactive Services
+ 1. Adding supplemental features to existing services
+ 2. New interaction-based services
+ 3. Side-mode integration of existing services
+ 4. Personalization & thematic specialization of existing services
+ 5. Appending content-oriented interactions to existing services
+
 
 ## References
 
