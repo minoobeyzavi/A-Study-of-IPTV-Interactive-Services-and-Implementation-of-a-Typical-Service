@@ -64,6 +64,7 @@ A picture-in-guide is a variation of the standard IPTV EPG application that disp
 Network Architecture figure below describes the building blocks that comprise an end-to-end IPTV EPG solution:
 The underlying technology platform has three major components, namely, a metadata generator, an EPG application server located at the IPTV data center, and a client EPG application resident on the IPTVCD. We explore these technical components in the following subsections.
 Metadata Generator: The EPG needs schedule data to allow the viewer receive information about IPTV broadcast and on-demand services. The technical and industry term for this data is metadata. The metadata generator is at the heart of an end-to-end IPTV EPG system and allows IPTV service providers to acquire, edit, generate, and play out EPG schedule data over the network. IPTV metadata defines data about data and is typically formatted in XML. It combines video content information from both the content provider and network operator. The types of metadata provided by an IPTV system can include some of the following items:</br>
+
 List of channels available for the various tiered packages</br>
 IPTV channel name</br>
 IPTV channel description</br>
@@ -136,9 +137,9 @@ The IP stream is controlled by the subscriber.
 
 In addition to a high capacity two-way broadband network, the deployment of IP-VoD services also requires a number of other logical and physical technology blocks:
 
-IP-VoD streaming server(s)
-IP-VoD transport protocols
-An Interactive IP-VoD client application
+* IP-VoD streaming server(s)
+* IP-VoD transport protocols
+* An Interactive IP-VoD client application
 
 We explore these technology blocks in the following subsections.
 IP-VoD Streaming Servers
@@ -163,17 +164,19 @@ While the stream is live on the network, it is the responsibility of the server 
 Updating Digital Content: A VoD software infrastructure has to have the capability to automatically manage the updating of video content. Relying on a manual system to keep VoD content libraries up to date is problematic. 
 The backoffice software ensures that all the digital assets included in the VoD library are current. This is achieved by automatically loading files from the content reception system into the VoD cluster of servers.
 Replication Management: The backoffice software manages the replication of digital assets across a distributed networking infrastructure. In the event that new content is made available, it is the responsibility of this software to ensure that the asset is propagated to edge and cache servers around the network.
-Management of Metadata: A centralized database is used to store the various attributes or metadata that are associated with each of the digital assets. Metadata is generally formatted as an XML file and provides descriptive data about each video asset. Metadata is typically used to search and browse VoD content. The types of metadata associated with a standard movie include
-Movie producers name
-Description
-Date when the movie was created
-Movie summary
-Parental rating
-Run time of the movie
-Actor and director details
-Genre
-Licensing details
-Royalty details
+Management of Metadata: A centralized database is used to store the various attributes or metadata that are associated with each of the digital assets. Metadata is generally formatted as an XML file and provides descriptive data about each video asset. Metadata is typically used to search and browse VoD content. The types of metadata associated with a standard movie include:
+
+* Movie producers name
+* Description
+* Date when the movie was created
+* Movie summary
+* Parental rating
+* Run time of the movie
+* Actor and director details
+* Genre
+* Licensing details
+* Royalty details
+
 The backoffice software is responsible for ensuring the integrity of this metadata. Industry groups such as CableLabs have defined a standard for VoD metadata.
 Search Capabilities: The indexing capabilities of video server software allow IPTV end users to carry out searches for digital assets on the backend IP-VoD servers.
 Managing Access of IP-VoD Digital Assets: The server software provides an external interface to the service provider’s back office components — the conditional access, digital rights management, and billing systems. Inputs from this interface are used to control and manage access to the digital VoD assets.
@@ -444,19 +447,20 @@ Keep Video Picture in Background When designing a Web page for a TV audience, it
 Keep Content Concise Considering the medium and viewers’ goals, content in a Web page should not be too long and complex. Content should be provided in easily absorbed chunks and having a large quantity of menus or hyperlinks should be avoided. Since a TV viewer will have less patience than a PC user, ensure fast download and response times.
 Choice of Navigation Given that it is difficult to use a PC keyboard while sitting on a soft chair, the navigational device most used for Interactive IPTV applications is a remote control. A remote control should be light and easy to hold in one hand. The buttons should be easy to see and to press, a maximum of 30 buttons is optimal.
 Most remote controls have directional buttons and a select button. There should be a clear relationship between the screens and the remote; this is often achieved by linking color-coded onscreen buttons with equivalent remote control function keys.
-IPTV providers often supply a wireless keyboard with a remote control so that a viewer can make the most of features such as e-mail, chat, t-commerce, and informational elements. A wireless keyboard contains most of the buttons that are found on a PC keyboard. They also include iTV specific buttons that vary according to brand. Seeing as, not all IPTV viewers have a wireless keyboard or if they do, it is cumbersome to use in a TV setting, it is best to assist navigation by 
-Keeping navigation simple
-Avoiding scroll bars or allowing limited vertical scrolling 
-Presenting choices in lists 
-Minimizing demands on the viewer to type
-Arranging elements in grids for remote-control navigation (like EPG grids)
-Linking functions to remote-control keys
-Avoid multilayered navigational trees
-Remove nonessential links and options
-Use pull-down menus instead of navigation links
-Have site navigation at the top with sub navigation at the bottom
-Add back and next links to each page
-Because Web pages are built for a mouse-controlled onscreen cursor, it is not possible to design for navigation in a TV Web page in the same way.
+IPTV providers often supply a wireless keyboard with a remote control so that a viewer can make the most of features such as e-mail, chat, t-commerce, and informational elements. A wireless keyboard contains most of the buttons that are found on a PC keyboard. They also include iTV specific buttons that vary according to brand. Seeing as, not all IPTV viewers have a wireless keyboard or if they do, it is cumbersome to use in a TV setting, it is best to assist navigation by:
+
+* Keeping navigation simple
+* Avoiding scroll bars or allowing limited vertical scrolling 
+* Presenting choices in lists 
+* Minimizing demands on the viewer to type
+* Arranging elements in grids for remote-control navigation (like EPG grids)
+* Linking functions to remote-control keys
+* Avoid multilayered navigational trees
+* Remove nonessential links and options
+* Use pull-down menus instead of navigation links
+* Have site navigation at the top with sub navigation at the bottom
+* Add back and next links to each page
+* Because Web pages are built for a mouse-controlled onscreen cursor, it is not possible to design for navigation in a TV Web page in the same way.
 
 Characteristic Description
 TV audience The TV audience
