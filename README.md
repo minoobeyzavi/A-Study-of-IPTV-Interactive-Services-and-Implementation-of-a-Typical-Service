@@ -63,31 +63,31 @@ A picture-in-guide is a variation of the standard IPTV EPG application that disp
 
 Network Architecture figure below describes the building blocks that comprise an end-to-end IPTV EPG solution:
 The underlying technology platform has three major components, namely, a metadata generator, an EPG application server located at the IPTV data center, and a client EPG application resident on the IPTVCD. We explore these technical components in the following subsections.
-Metadata Generator: The EPG needs schedule data to allow the viewer receive information about IPTV broadcast and on-demand services. The technical and industry term for this data is metadata. The metadata generator is at the heart of an end-to-end IPTV EPG system and allows IPTV service providers to acquire, edit, generate, and play out EPG schedule data over the network. IPTV metadata defines data about data and is typically formatted in XML. It combines video content information from both the content provider and network operator. The types of metadata provided by an IPTV system can include some of the following items:</br>
+Metadata Generator: The EPG needs schedule data to allow the viewer receive information about IPTV broadcast and on-demand services. The technical and industry term for this data is metadata. The metadata generator is at the heart of an end-to-end IPTV EPG system and allows IPTV service providers to acquire, edit, generate, and play out EPG schedule data over the network. IPTV metadata defines data about data and is typically formatted in XML. It combines video content information from both the content provider and network operator. The types of metadata provided by an IPTV system can include some of the following items:
 
-List of channels available for the various tiered packages</br>
-IPTV channel name</br>
-IPTV channel description</br>
-IPTV channel logo</br>
-IPTV channel provider</br>
-IPTV channel provider’s Web site</br>
-Program title</br>
-Program start and finish times</br>
-Program language options</br>
-Detailed description of program contents</br>
-Parental control details and rating standards</br>
-Content aspect ratios</br>
-An indicator of whether captions are available or not</br>
-A description of any embedded advertisements</br>
-Compression techniques used on both audio and video content</br>
-Prices and access conditions for different items of IPTV content</br>
-Scheduled distribution time for delivery across the IP broadband network</br>
-Description of protocols and mechanism used to deliver the content</br>
-Caching details</br>
-Preview duration for IP-VoD assets</br>
-Recording rights</br>
-Applicability of content to particular types of IPTVCDs</br>
-Viewing profiles of IPTV end-users</br>
+* List of channels available for the various tiered packages
+* IPTV channel name
+* IPTV channel description
+* IPTV channel logo
+* IPTV channel provider
+* IPTV channel provider’s Web site
+* Program title
+* Program start and finish times
+* Program language options
+* Detailed description of program contents
+* Parental control details and rating standards
+* Content aspect ratios
+* An indicator of whether captions are available or not
+* A description of any embedded advertisements
+* Compression techniques used on both audio and video content
+* Prices and access conditions for different items of IPTV content
+* Scheduled distribution time for delivery across the IP broadband network
+* Description of protocols and mechanism used to deliver the content
+* Caching details
+* Preview duration for IP-VoD assets
+* Recording rights
+* Applicability of content to particular types of IPTVCDs
+* Viewing profiles of IPTV end-users
 
 
 ##### End-to-end IPTV EPG system: Application Server 
@@ -583,20 +583,20 @@ As shown, an end-to-end system includes: the IPTVCD weather application, a HTTP 
 
 The weather application written for IPTVCDs need the same robust functionality found in desktops, but with access to a fraction of the hardware resources. Therefore, they are optimized to run within resource constrained platforms such as set-top boxes, mobile phones, and Internet-enabled appliances.
 The weather forecast software runs on top of the underlying real-time OS and middleware platforms and typically provides the following functionality:
-It gives you instant access to real-time local weather and alerts you whenever severe storms threaten. You're just one step away from detailed information on your local weather conditions as well as your favorite cities worldwide. More advanced versions can also provide:</br>
+It gives you instant access to real-time local weather and alerts you whenever severe storms threaten. You're just one step away from detailed information on your local weather conditions as well as your favorite cities worldwide. More advanced versions can also provide:
 
-weather maps</br>
-animated radar</br>
-hourly and daily forecasts</br>
-local/national maps</br>
-satellite images</br>
-weather alarms</br>
-hurricane central</br>
-weather videos</br>
-severe weather alert</br>
-weather trivia, photos and cartoons</br>
-weather news</br>
-customizable look & feel</br>
+* weather maps
+* animated radar
+* hourly and daily forecasts
+* local/national maps
+* satellite images
+* weather alarms
+* hurricane central
+* weather videos
+* severe weather alert
+* weather trivia, photos and cartoons
+* weather news
+* customizable look & feel
 
 It might even present the subscribers with weather and health information for the exercise enthusiast or doctors and those with health concerns - arthritis, asthma, flu, migraine allergies and more.
 The weather application is pre-embedded in the client’s IPTVCD and works on top of the IPTV middleware.
