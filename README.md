@@ -93,10 +93,10 @@ Metadata Generator: The EPG needs schedule data to allow the viewer receive info
 ##### End-to-end IPTV EPG system: Application Server 
 
 The metadata generator interfaces with the EPG server to deliver program information to the EPG client application in a suitable format. The application server consists of software programs, a HTTP server, and a centralized database that contains the event data of all the broadcast programs on offer. It has four main functions:
-(1) Formatting—The channel listing are generally formatted as Web pages.
-(2) Authorization—The server in conjunction with the conditional access and digital rights management system authorizes access to particular channels.
-(3) Provision of IP multicast addresses—The EPG server provides IP multicast addresses which are used by the router to stream the IP video channel across the core and access IP networks.
-(4) Caching—The IPTV EPG server also provides caching functionality, which speeds up the EPG load time for end-users.
+1. Formatting—The channel listing are generally formatted as Web pages.
+2. Authorization—The server in conjunction with the conditional access and digital rights management system authorizes access to particular channels.
+3. Provision of IP multicast addresses—The EPG server provides IP multicast addresses which are used by the router to stream the IP video channel across the core and access IP networks.
+4. Caching—The IPTV EPG server also provides caching functionality, which speeds up the EPG load time for end-users.
 Client EPG Application The level of functionality provided by the EPG client
 application can include some or all of the following features:
 Allows end users to customize list of favorite multicast channels and on-demand titles.
@@ -494,11 +494,11 @@ TV safe area—Content on a full screen might be obscured because of overscannin
 
 Minimize Download Times 
 To minimize download times
-(1) reduce amount of data to be downloaded—If there are fewer elements on the screen that need to be downloaded, the overall download time will be reduced.
-(2) design pages to fit within the safe area of the TV screen—If pages fit the safe area of the TV screen, the IP set-top browser does not need to spend time resizing large images and tables.
-(3) anticipate the IPTV viewer’s next page—While the viewer is looking at the current page the next one can be downloading.
-(4) insert a fast-downloading introductory scene in animations—While the introductory scene is playing, the remainder of the animation can be downloading.
-(5) use television or a color as a background—It is best to avoid putting background images other than television or a plain color as a background on the Web page.
+1. reduce amount of data to be downloaded—If there are fewer elements on the screen that need to be downloaded, the overall download time will be reduced.
+2. design pages to fit within the safe area of the TV screen—If pages fit the safe area of the TV screen, the IP set-top browser does not need to spend time resizing large images and tables.
+3. anticipate the IPTV viewer’s next page—While the viewer is looking at the current page the next one can be downloading.
+4. insert a fast-downloading introductory scene in animations—While the introductory scene is playing, the remainder of the animation can be downloading.
+5. use television or a color as a background—It is best to avoid putting background images other than television or a plain color as a background on the Web page.
 
 Identify the Types of Signals Used by Target Televisions 
 There are two primary types of video signals used by analog televisions: composite and S-video input. In composite video, red, green, blue (RGB), and sync information are combined into one signal going into the TV; in order to transmit this picture, the TV must separate the signal into its four components, which results in some distortions and a degraded picture quality. S-Video provides an improved mechanism for carrying signals resulting in cleaner and sharper pictures. Content developers need to be aware of these differences when customizing applications for an IPTV platform.
