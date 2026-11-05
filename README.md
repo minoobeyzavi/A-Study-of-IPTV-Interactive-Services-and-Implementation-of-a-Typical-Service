@@ -390,10 +390,12 @@ IP DVR set-top boxes serve as a media hub when connected to an in-home networkin
 * Pause and rewind live programming
 * Record shows and movies on the set-top hard drive
 * Replay video content at any time
-Most of the components at the core of an IP DVR set-top are almost identical to the parts used to build a standard IP multicast and unicast set-top box. The inclusion of a mechanical hard disk is the main differentiator of this type of IP set-top box. The main functions of the hard disk include:<br>
+
+Most of the components at the core of an IP DVR set-top are almost identical to the parts used to build a standard IP multicast and unicast set-top box. The inclusion of a mechanical hard disk is the main differentiator of this type of IP set-top box. The main functions of the hard disk include:
 * Storing the IP set-top box’s key components of the OS and software code.
 * Storing system and user data (such as profiles, configuration details, the system registry, updateable system files).
 * Storing IP-VoD content.
+
 The following section provides a brief overview of mechanical hard disks when incorporated into an IP set-top box.
 
 ##### IP Set-Top Hard Disks 
