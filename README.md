@@ -292,10 +292,10 @@ The IPTVCD with its interactive capability is seen by many as a natural environm
 
 ##### Networking and Communication Protocols 
 
-E-mail messages are always transmitted in American Standard Code for Information Interchange (ASCII) format. ASCII files are text-only files. The transfer of e-mail messages in an IPTV environment are normally based on Internet mail standards such as SMTP, MIME, IMAP4, and POP3.
-SMTP—stands for Simple Message Transfer Protocol. It is used to transfer IPTV mails from the mail server located at the data center to another e-mail server on the Internet, and is designed for reliable and efficient mail transfer. SMTP forms part of the TCP/IP protocol stack, and is used to specify how e-mails should be passed from transmitting to receiving hosts.
-MIME—stands for Multipurpose Internet Mail Extensions. MIME is an Internet standard that lets IPTV e-mail clients automatically encode and decode binary files from their original format into a format that is viewable on a television screen. It specifies how non-ASCII messages should be formatted so that they can be sent over the public Internet. Examples of non-ASCII messages include graphic, audio, and video files. This protocol allows IPTV e-mail systems to support much more than just text messages. There are many predefined MIME formats, including JPEG file graphics, and PostScript files.
-POP3—stands for Post Office Protocol version 3. It is used by IPTVCD e-mail clients to access messages stored on the mail server.
+E-mail messages are always transmitted in American Standard Code for Information Interchange (ASCII) format. ASCII files are text-only files. The transfer of e-mail messages in an IPTV environment are normally based on Internet mail standards such as SMTP, MIME, IMAP4, and POP3.<br>
+SMTP—stands for Simple Message Transfer Protocol. It is used to transfer IPTV mails from the mail server located at the data center to another e-mail server on the Internet, and is designed for reliable and efficient mail transfer. SMTP forms part of the TCP/IP protocol stack, and is used to specify how e-mails should be passed from transmitting to receiving hosts.<br>
+MIME—stands for Multipurpose Internet Mail Extensions. MIME is an Internet standard that lets IPTV e-mail clients automatically encode and decode binary files from their original format into a format that is viewable on a television screen. It specifies how non-ASCII messages should be formatted so that they can be sent over the public Internet. Examples of non-ASCII messages include graphic, audio, and video files. This protocol allows IPTV e-mail systems to support much more than just text messages. There are many predefined MIME formats, including JPEG file graphics, and PostScript files.<br>
+POP3—stands for Post Office Protocol version 3. It is used by IPTVCD e-mail clients to access messages stored on the mail server.<br>
 IMAP—stands for Internet Message Access Protocol, the latest version of this protocol, IMAP4, has similar functionality to POP3 but does support additional features, which are useful for IPTV end users. E-mail searching using keywords while the e-mails remain on the server is one example of an IMAP feature that is not supported by POP3.
 
 ##### E-Mail Servers 
@@ -383,17 +383,17 @@ A hard disk needs to be incorporated into the IP set-top box to support DVR func
 
 
 ##### IP Set-Top DVRs
-The IP set-top DVR category may be subdivided primarily into standalone and multiroom devices.
+The IP set-top DVR category may be subdivided primarily into standalone and multi-room devices.
 
-Stand-Alone IP Set-Top DVRs 
-IP DVR set-top boxes serve as a media hub when connected to an in-home networking system and allow IPTV subscribers to
-Pause and rewind live programming
-Record shows and movies on the set-top hard drive
-Replay video content at any time
-Most of the components at the core of an IP DVR set-top are almost identical to the parts used to build a standard IP multicast and unicast set-top box. The inclusion of a mechanical hard disk is the main differentiator of this type of IP set-top box. The main functions of the hard disk include
-Storing the IP set-top box’s key components of the OS and software code.
-Storing system and user data (such as profiles, configuration details, the system registry, updateable system files).
-Storing IP-VoD content.
+Stand-Alone IP Set-Top DVRs <br>
+IP DVR set-top boxes serve as a media hub when connected to an in-home networking system and allow IPTV subscribers to:
+* Pause and rewind live programming
+* Record shows and movies on the set-top hard drive
+* Replay video content at any time
+Most of the components at the core of an IP DVR set-top are almost identical to the parts used to build a standard IP multicast and unicast set-top box. The inclusion of a mechanical hard disk is the main differentiator of this type of IP set-top box. The main functions of the hard disk include:<br>
+* Storing the IP set-top box’s key components of the OS and software code.
+* Storing system and user data (such as profiles, configuration details, the system registry, updateable system files).
+* Storing IP-VoD content.
 The following section provides a brief overview of mechanical hard disks when incorporated into an IP set-top box.
 
 ##### IP Set-Top Hard Disks 
