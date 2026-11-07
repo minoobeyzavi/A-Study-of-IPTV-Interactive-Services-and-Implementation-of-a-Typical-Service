@@ -54,16 +54,19 @@ The communication process between the client EPG application running on the IP s
 ##### Introduction to IPTV EPGs 
 
 Also known as an event service guide, an IPTV EPG displays program lineup and episode information for current and future broadcast programming choices. It displays the current channel contents in a window, and allows IPTV subscribers to select a particular broadcast channel. Subscribers use the arrow keys on their remote controls to highlight and select various options. The functions of a standard IPTV EPG can include the following:
-Displaying weekly schedules of IPTV multicast channels. Note that the channels accessible on the weekly channel are defined by the end-user access rights.
-Automatic video recording.
-Alerting subscribers about the arrival of new e-mail.
-Reminding viewers when a selected program (or a program covering a selected topic) is about to be shown.
-Restricting access to TV channels that are deemed inappropriate.
-Allowing subscribers to find programs with a particular theme on a specified time or date.
-Controlling disk storage devices in IP set-top boxes.
-Previewing particular programs and personalizing TV viewing.
-Some advanced IPTV systems even allow subscribers to program the EPG to make it look the way they want it.
-A picture-in-guide is a variation of the standard IPTV EPG application that displays a selection of multicast channels within a small window (stamp like images) on the TV screen. The end user is able to use the arrows on their remote control to move from one window to the next. Each time a window is selected, the IPTVCD plays the sound associated with the particular channel. In addition to sound, the set-top will also display channel information including title, beginning, and ending times. By simply pressing the OK or Enter button on their remote control, the window extends to the full length and width of the television screen, the end user can sit back and watch the channel in comfort. From a network engineering perspective, multiple streams are required to support the provision of a picture-in-guide interactive TV application. This is problematic for service providers that operate networks with low bandwidth capacities. Note the delivery of this interactive IPTV application also requires picture-in-guide functionality to be built into the encoders at the IPTV data center.
+* Displaying weekly schedules of IPTV multicast channels. Note that the channels accessible on the weekly channel are defined by the end-user access rights.
+* Automatic video recording.
+* Alerting subscribers about the arrival of new e-mail.
+* Reminding viewers when a selected program (or a program covering a selected topic) is about to be shown.
+* Restricting access to TV channels that are deemed inappropriate.
+* Allowing subscribers to find programs with a particular theme on a specified time or date.
+* Controlling disk storage devices in IP set-top boxes.
+* Previewing particular programs and personalizing TV viewing.
+* Some advanced IPTV systems even allow subscribers to program the EPG to make it look the way they want it.
+
+A picture-in-guide is a variation of the standard IPTV EPG application that displays a selection of multicast channels within a small window (stamp like images) on the TV screen. The end user is able to use the arrows on their remote control to move from one window to the next. Each time a window is selected, the IPTVCD plays the sound associated with the particular channel. In addition to sound, the set-top will also display channel information including title, beginning, and ending times. By simply pressing the OK or Enter button on their remote control, the window extends to the full length and width of the television screen, the end user can sit back and watch the channel in comfort.
+
+From a network engineering perspective, multiple streams are required to support the provision of a picture-in-guide interactive TV application. This is problematic for service providers that operate networks with low bandwidth capacities. Note the delivery of this interactive IPTV application also requires picture-in-guide functionality to be built into the encoders at the IPTV data center.
 
 ##### IPTV EPG End-to-End
 
@@ -94,7 +97,6 @@ Metadata Generator: The EPG needs schedule data to allow the viewer receive info
 * Recording rights
 * Applicability of content to particular types of IPTVCDs
 * Viewing profiles of IPTV end-users
-
 
 ##### End-to-end IPTV EPG system: Application Server 
 
