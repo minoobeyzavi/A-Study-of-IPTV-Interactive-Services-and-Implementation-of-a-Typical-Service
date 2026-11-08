@@ -71,9 +71,10 @@ From a network engineering perspective, multiple streams are required to support
 ##### IPTV EPG End-to-End
 
 Network Architecture figure below describes the building blocks that comprise an end-to-end IPTV EPG solution:
-The underlying technology platform has three major components, namely, a metadata generator, an EPG application server located at the IPTV data center, and a client EPG application resident on the IPTVCD. We explore these technical components in the following subsections.
-Metadata Generator: The EPG needs schedule data to allow the viewer receive information about IPTV broadcast and on-demand services. The technical and industry term for this data is metadata. The metadata generator is at the heart of an end-to-end IPTV EPG system and allows IPTV service providers to acquire, edit, generate, and play out EPG schedule data over the network. IPTV metadata defines data about data and is typically formatted in XML. It combines video content information from both the content provider and network operator. The types of metadata provided by an IPTV system can include some of the following items:
 
+The underlying technology platform has three major components, namely, a metadata generator, an EPG application server located at the IPTV data center, and a client EPG application resident on the IPTVCD. We explore these technical components in the following subsections.
+
+Metadata Generator: The EPG needs schedule data to allow the viewer to receive information about IPTV broadcast and on-demand services. The technical and industry term for this data is metadata. The metadata generator is at the heart of an end-to-end IPTV EPG system and allows IPTV service providers to acquire, edit, generate, and play out EPG schedule data over the network. IPTV metadata defines data about data and is typically formatted in XML. It combines video content information from both the content provider and network operator. The types of metadata provided by an IPTV system can include some of the following items:
 * List of channels available for the various tiered packages
 * IPTV channel name
 * IPTV channel description
@@ -100,17 +101,18 @@ Metadata Generator: The EPG needs schedule data to allow the viewer receive info
 
 ##### End-to-end IPTV EPG system: Application Server 
 
-The metadata generator interfaces with the EPG server to deliver program information to the EPG client application in a suitable format. The application server consists of software programs, a HTTP server, and a centralized database that contains the event data of all the broadcast programs on offer. It has four main functions:
-1. Formatting—The channel listing are generally formatted as Web pages.
-2. Authorization—The server in conjunction with the conditional access and digital rights management system authorizes access to particular channels.
-3. Provision of IP multicast addresses—The EPG server provides IP multicast addresses which are used by the router to stream the IP video channel across the core and access IP networks.
-4. Caching—The IPTV EPG server also provides caching functionality, which speeds up the EPG load time for end-users.
-Client EPG Application The level of functionality provided by the EPG client
-application can include some or all of the following features:
-Allows end users to customize list of favorite multicast channels and on-demand titles.
-Allows end users to change the look and feel of the screen layout.
-Provides end users with an efficient mechanism of navigating through the various IPTV services and channels that are on offer from the network operator.
+The metadata generator interfaces with the EPG server to deliver program information to the EPG client application in a suitable format. The application server consists of software programs, an HTTP server, and a centralized database that contains the event data of all the broadcast programs on offer. It has four main functions:
+1. Formatting - The channel listing are generally formatted as Web pages.
+2. Authorization - The server in conjunction with the conditional access and digital rights management system authorizes access to particular channels.
+3. Provision of IP multicast addresses - The EPG server provides IP multicast addresses which are used by the router to stream the IP video channel across the core and access IP networks.
+4. Caching - The IPTV EPG server also provides caching functionality, which speeds up the EPG load time for end-users.
 
+Client EPG Application
+
+The level of functionality provided by the EPG client application can include some or all of the following features:
+* Allows end users to customize list of favorite multicast channels and on-demand titles.
+* Allows end users to change the look and feel of the screen layout.
+* Provides end users with an efficient mechanism of navigating through the various IPTV services and channels that are on offer from the network operator.
 
 ##### Launching an EPG via an IPTVCD connected to an IP
 
