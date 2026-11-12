@@ -321,12 +321,18 @@ The functionality provided by this application allows subscribers to retain cont
 
 ##### IPTV targeted advertising system
 
-Content reception—In an IPTV advertising system, the television channel is typically received from off-air or from a satellite feed and forwarded to the splicer. Special advert markers are sometimes included in this stream, which pinpoint the sections of the video stream that are allocated for ad inserts.</br>
-Advert server—Advertisements are typically pre-recorded and stored digitally on this special purpose video server located at the IPTV provider’s data center. The server streams these advertisements to the splicer.</br>
-Advert splicer—The purpose of this piece of hardware is to insert adverts retrieved from the advert server into the IPTV streams.</br>
-Advertisement management system—This is a piece of software that runs on a PC or server. It ensures that the correct adverts are inserted into the correct IPTV streams at the specified time slots. Some of the more advanced systems support the creation of specific marketing campaigns based parameters such as programming type, geography, and demographic data.</br>
-Broadband access router—This router streams the IP video streams with the embedded digital adverts on to the core and access IP networks.</br>
-IP set-top box—The targeting of adverts over an IPTV network generally starts with the subscriber who uses their IPTV interface to create a personal profile that outlines the types of adverts they would like to view. This profile information and related viewing statistics is then used by advertising companies to reach IPTV subscribers who have an interest in a specific category of products or services.</br>
+**Content reception:** In an IPTV advertising system, the television channel is typically received from off-air or from a satellite feed and forwarded to the splicer. Special advert markers are sometimes included in this stream, which pinpoint the sections of the video stream that are allocated for ad inserts.
+
+**Advert server:** Advertisements are typically pre-recorded and stored digitally on this special purpose video server located at the IPTV provider’s data center. The server streams these advertisements to the splicer.
+
+**Advert splicer:** The purpose of this piece of hardware is to insert adverts retrieved from the advert server into the IPTV streams.
+
+**Advertisement management system:** This is a piece of software that runs on a PC or server. It ensures that the correct adverts are inserted into the correct IPTV streams at the specified time slots. Some of the more advanced systems support the creation of specific marketing campaigns based parameters such as programming type, geography, and demographic data.
+
+**Broadband access router:** This router streams the IP video streams with the embedded digital adverts on to the core and access IP networks.
+
+**IP set-top box:** The targeting of adverts over an IPTV network generally starts with the subscriber who uses their IPTV interface to create a personal profile that outlines the types of adverts they would like to view. This profile information and related viewing statistics is then used by advertising companies to reach IPTV subscribers who have an interest in a specific category of products or services.
+
 The deployment of an IPTV targeted advertising system is rarely implemented in isolation and is usually integrated into an IPTV data center in conjunction with a number of other third-party systems.
 
 
@@ -392,18 +398,25 @@ The basic technical architecture of a hard disk that is integrated with an IP DV
 These circles are called platters and are stacked on top of each other to increase the storage capacity of the drive. Information is read from or stored to the hard disk using read and write heads.
 The hard disk is a nonvolatile, bulk storage medium that acts as a repository for video content. The main benefit of this medium versus standard RAM systems is the sheer capacity of these devices and their ability to continue storing contents when the IP set-top box is switched off.
 
-There are generally two types of internal bus interfaces used by drives integrated with IP set-top boxes—IDE and SATA.</br>
-Integrated drive electronics (IDE)—The IDE bus also known as ATA (Advanced Technology Attachment) connects the hard drive to the IP set-top motherboard. The IDE standard has been around for many years and has undergone several revisions over time. When integrated into a set-top box an IDE drive is capable of communicating in speeds in excess of a 100 Mbps.</br>
-Serial ATA (SATA)—ATA or IDE transfers data in parallel. SATA in contrast to the IDE standard uses a serial bus to communicate data. First generation SATA drives were released in 2001 and are capable of throughputs of 150 Mbps. 
+There are generally two types of internal bus interfaces used by drives integrated with IP set-top boxes—IDE and SATA.
+
+**Integrated drive electronics (IDE):** The IDE bus also known as ATA (Advanced Technology Attachment) connects the hard drive to the IP set-top motherboard. The IDE standard has been around for many years and has undergone several revisions over time. When integrated into a set-top box an IDE drive is capable of communicating in speeds in excess of a 100 Mbps.
+
+**Serial ATA (SATA):** ATA or IDE transfers data in parallel. SATA in contrast to the IDE standard uses a serial bus to communicate data. First generation SATA drives were released in 2001 and are capable of throughputs of 150 Mbps. 
 
 Over the last couple of years, a number of IP DVR set-top manufactures have started to install drives that are based on an extension to the original SATA standard—SATA II. The newer SATA II drives offer higher rate interface speeds compared to their predecessors. The improved read/write times associated with SATA II help to improve the operational efficiencies of next generation IPTV applications.
 
-While most DVR enabled IP set-top boxes use standard hard disks, some storage manufacturers have started to optimize their products for storing and streaming digital video streams. A drive optimized for DVR functionality inside an IP set-top box will generally include such features as:</br>
-Advanced cooling capabilities—Manufacturers can custom tune the cooling capabilities of IP set-top hard disks to improve overall power consumption of the unit.</br>
-Small form factors—Hard disks with a form factor of only 3.5 in. are typically incorporated into IP set-top DVRs. The sizes of these drives will continue to decrease and 1.8 in. hard disk sizes are expected to become a standard feature in IP DVRs over the next couple of years.</br>
-Concurrent reading and writing of hard disk—The simultaneous reading and writing of IPTV streams to disks allows consumers to time shift their viewing.</br>
-High capacities—Video recording and IPTV streaming are very demanding of storage capacity. Therefore, IP set-top box hard disks come in a range of sizes from 100 GB to 1 TB (TeraByte) capacity. Next generation technologies such as perpendicular magnetic recording (PMR), heat-assisted magnetic recording (HAMR), and holographic recording are expected to exponentially increase capacity of IP set-top box hard disks.</br>
-High RPMs (revolutions per minute)—The RPM characteristic of a hard disk measures the rotational speed of the hard disk. Drives that are capable of operating at high RPMs (typically 7200 and above) allow for smooth recording of IPTV content and subsequent playback.
+While most DVR enabled IP set-top boxes use standard hard disks, some storage manufacturers have started to optimize their products for storing and streaming digital video streams. A drive optimized for DVR functionality inside an IP set-top box will generally include such features as:
+
+**Advanced cooling capabilities:** Manufacturers can custom tune the cooling capabilities of IP set-top hard disks to improve overall power consumption of the unit.
+
+**Small form factors:** Hard disks with a form factor of only 3.5 in. are typically incorporated into IP set-top DVRs. The sizes of these drives will continue to decrease and 1.8 in. hard disk sizes are expected to become a standard feature in IP DVRs over the next couple of years.
+
+**Concurrent reading and writing of hard disk:** The simultaneous reading and writing of IPTV streams to disks allows consumers to time shift their viewing.
+
+**High capacities:** Video recording and IPTV streaming are very demanding of storage capacity. Therefore, IP set-top box hard disks come in a range of sizes from 100 GB to 1 TB (TeraByte) capacity. Next generation technologies such as perpendicular magnetic recording (PMR), heat-assisted magnetic recording (HAMR), and holographic recording are expected to exponentially increase capacity of IP set-top box hard disks.
+
+**High RPMs (revolutions per minute):** The RPM characteristic of a hard disk measures the rotational speed of the hard disk. Drives that are capable of operating at high RPMs (typically 7200 and above) allow for smooth recording of IPTV content and subsequent playback.
 
 ##### Multiroom IP Set-Top DVRs 
 
