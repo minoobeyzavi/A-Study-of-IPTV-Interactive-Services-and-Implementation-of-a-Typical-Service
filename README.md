@@ -507,16 +507,23 @@ To minimize download times
 
 Identify the Types of Signals Used by Target Televisions 
 There are two primary types of video signals used by analog televisions: composite and S-video input. In composite video, red, green, blue (RGB), and sync information are combined into one signal going into the TV; in order to transmit this picture, the TV must separate the signal into its four components, which results in some distortions and a degraded picture quality. S-Video provides an improved mechanism for carrying signals resulting in cleaner and sharper pictures. Content developers need to be aware of these differences when customizing applications for an IPTV platform.
+
 Avoid Color Problems TV sets with a composite signal usually generate visual artifacts. Artifacts are distortions of display, content, or sound caused by a limitation or malfunction in the technology used. Artifacts can be minor or extreme.
+
 Such artifacts do not appear on computer monitors. If the chrominance difference between two colors is great, an artifact known as “chroma crawl” is created on a composite video signal. Wherever two contrasting colors meet, dots appear to crawl. Sometimes they can form a shape and move across or down the screen. This can make text and images appear unclear or distorted. It is possible to avoid chroma crawl by using colors of the same hue but with varying luminance.
+
 Minimizing Color Problems By eliminating chroma crawl IPTV content creators restrict their choice in colors. However in many cases, it is sufficient to just minimize the effect. Minimizing chroma crawl means reducing the chrominance distance between adjacent colors. This is possible by replacing vivid colors with pastel relatives, for example. In addition to chroma crawl there are other TV-generated color problems to consider:
+
 Hot colors—To reduce the over-vibrant appearance of colors, reduce saturation by 80 to 85%.
 Bleeding—Bleeding can occur with either a composite or a S-video signal.
 Adjoining colors appear to bleed into each other. Bleeding can be remedied in the same way as chroma crawl.
-Moiré effect—Moiré patterns occur with interlaced scanning when contrasting colors (like, black and white in a herringbone pattern) appear 
-in close proximity. Moiré effects vary depending on colors. The area around the pattern can produce a shimmering effect or it could produce a red glow, for example. It is possible to avoid Moiré effects by avoiding detailed patterns.
+
+Moiré effect—Moiré patterns occur with interlaced scanning when contrasting colors (like, black and white in a herringbone pattern) appear in close proximity. Moiré effects vary depending on colors. The area around the pattern can produce a shimmering effect or it could produce a red glow, for example. It is possible to avoid Moiré effects by avoiding detailed patterns.
+
 Blooming—In interlaced scanning, brighter scan lines are wider than darker ones. Therefore, if there is a large number of alternating bright and dark scan lines grouped together the vertical sides appear to wave in and out. Blooming is highlighted when you have vertical lines, like those in a table.
+
 Flickering—Flickering is caused because TV displays are interlaced. Without a flicker filter, a thin horizontal line just one-pixel thick would appear to flicker on and off. Horizontal lines should be at least 2 pixels in width. Similarly, horizontal edges between two contrasting colors would pulsate.
+
 There is a gradual move across the world from old analog TV sets toward digital and high definition televisions, which deliver better picture, sound, and overall stability. Eventually there will be global deployment of these. When this happens the development of Web pages for IPTV Web portals will become more straightforward. Until that happens, content creators will need to comply with the various guidelines outlined above. From a market demand perspective, TV viewers are more accustomed to watching TV than viewing a Web page on its screens. However, this author is more optimistic than ever that the concept of walled gardens will eventually catch on and firmly believes that IPTV will act as a catalyst for increasing the popularity of this application.
 
 </br><div id="IM" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/Messaging.png" width="400"></div>
@@ -524,6 +531,7 @@ There is a gradual move across the world from old analog TV sets toward digital 
 ### 11. Instant IPTV Messaging
 
 This application uses “presence technology” to allow subscribers to use their televisions to participate in interactive chat forums. The network service provider decides on the types of chat forums that are available to their customer base. From a technical perspective the IPTV operator needs to install a powerful community chat server in the headend. Chat servers are easily customizable and seamlessly integrate with advertisement banners.
+
 The client IPTV application has very low memory and processor requirements and makes it very suitable for use in IPTVCDs. Most IPTV chat programs offer one-to-one and one-to-many communication channels. 
 
 New versions of IPTV messaging software applications allow interactive TV designers to split the TV screen into two frames. The first frame includes the forum, while the second frame displays the related TV program.
@@ -559,6 +567,7 @@ The deployment of localized video content is seen by many telecom operators as a
 ### 15. Parental Control
 
 Parental control are processes that allow a person (such as a parent) to control the access rights of another person (such as a child).
+
 IPTV networking platforms also include filtering systems that allow telecom operators and subscribers to restrict access to certain on-demand titles or broadcasting channels that contain inappropriate content. Channels or VoD titles requested by an IPTV subscriber are checked against a database of objectionable content. If the server finds that the material is rated, it will not allow that video asset to be passed on to the person making the request. The application itself uses PIN codes to enforce content filtering regulations.
 
 </br><div id="Personalized"></div>
@@ -577,17 +586,21 @@ In personalized IPTV services environment, we also need to know about content de
 ### 17. Weather Forecast
 
 Many IPTV network operators provide viewers with access to the weather forecasts information. IPTV based weather application is similar to weather applications that are designed to work on a PC but it is TV based. With this service you can have dynamic weather information right on your TV screen. This fun-to-use application provides current conditions and forecasts, as well as localized and accurate weather information for wherever in the world. More advanced versions might also provide the subscriber with, severe weather alerts for upcoming extreme weather conditions, updated each hour, including hourly forecasts and information for the next hours and days, animated radar and satellite images, videos, and even interactive weather maps.
-IPTV network operators provide an embedded software application on their IP set-top boxes that receives data about current weather conditions and displays this information on the TV screen. Such software can be provided as part of a middleware platform.
-Weather application is the most popular interactive service of an IPTV system. In the figure below, the structure of a generic infrastructure used by IPTV operators to deliver high speed access to weather information to their subscribers is illustrated. 
-As shown, an end-to-end system includes: the IPTVCD weather application, a HTTP Web server, and a high-speed backhaul connection to the Internet.
 
+IPTV network operators provide an embedded software application on their IP set-top boxes that receives data about current weather conditions and displays this information on the TV screen. Such software can be provided as part of a middleware platform.
+
+Weather application is the most popular interactive service of an IPTV system. In the figure below, the structure of a generic infrastructure used by IPTV operators to deliver high speed access to weather information to their subscribers is illustrated. 
+
+As shown, an end-to-end system includes: the IPTVCD weather application, an HTTP Web server, and a high-speed backhaul connection to the Internet.
 
 ##### Technical building blocks of an IPTV weather forecast service.
 
 ##### IPTVCD Weather Application
 
 The weather application written for IPTVCDs need the same robust functionality found in desktops, but with access to a fraction of the hardware resources. Therefore, they are optimized to run within resource constrained platforms such as set-top boxes, mobile phones, and Internet-enabled appliances.
+
 The weather forecast software runs on top of the underlying real-time OS and middleware platforms and typically provides the following functionality:
+
 It gives you instant access to real-time local weather and alerts you whenever severe storms threaten. You're just one step away from detailed information on your local weather conditions as well as your favorite cities worldwide. More advanced versions can also provide:
 
 * weather maps
@@ -609,10 +622,12 @@ The weather application is pre-embedded in the client’s IPTVCD and works on to
 ##### A Web Server
  
 A Web server, also known as an HTTP server, is basically a file server. A Web server’s main function within an IPTV network is to listen for and respond to HTTP requests from IPTVCD weather application clients. When a request is received, the server opens a connection to the application and sends the requested weather forecast information. After servicing the request, the server returns to its listening state, waiting for the next HTTP request. HTTP is extremely rapid. According to Tim Berners-Lee, the developer of HTTP, the request is made and the response is given in a cycle of 100 ms. Therefore the viewer will always have access to weather information that is current and up to date. In addition to responding to requests from applications, Web servers are also responsible for completing other tasks including:
+
 Connecting to various weather servers through the Internet;
 Checking for new information periodically and keeping the data up to date.
 
 The hardware requirements for a Web server will vary according to the level of interaction between the IP set-top box and the Web server.
+
 We should note that in addition to the web server and the weather application, we also need a broadband connection to the Internet to deploy this service on an IPTV platform.
 
 
