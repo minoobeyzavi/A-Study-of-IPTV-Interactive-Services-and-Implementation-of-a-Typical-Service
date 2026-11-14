@@ -159,7 +159,9 @@ We explore these technology blocks in the following subsections.
 IP-VoD Streaming Servers
 
 In addition to the various processes that are executed in IPTV data centers, namely, encoding, multiplexing, and modulation, a number of high capacity computer servers are also installed to allow the delivery of IP-VoD services to various types of IPTVCDs. The main function of these VoD streaming servers is to retrieve and deliver on demand video content to a distribution network.
+
 IP VoD servers are built using standard off-the-shelf computer and electronic components. Lots of processing power, fast input/output (I/O) systems, and large amounts of storage space are the main hardware characteristics of VoD streaming servers. Fortunately, for IPTV service providers the prices for these components continue to fall, while their capacities are continuing to rise. A video server typically includes redundant components such as power supplies, hot swappable hard drives and multiple CPUs. It acquires VoD assets from a number of content sources and is typically able to handle a range of different types of compression formats including MPEG-2, H.264/AVC, and VC-1. A Gigabit Ethernet output provides connectivity to the access network.
+
 A large database of video movies and program assets resides on the server. The server receives requests for a particular content asset from VoD capable IPTVCDs, identifies the item, and streams the requested item to the IPTVCD.
 The size and capabilities of the video server varies from supplier to supplier. A cluster of IP-VoD servers incorporate operating systems and application software that optimize the process of streaming video assets and simplify the day-to-day operations of the overall system. The operating systems used by VoD servers vary between vendors. The application software typically performs a number of critical functions.
 
@@ -167,17 +169,27 @@ The size and capabilities of the video server varies from supplier to supplier. 
 ##### Setting up a VoD stream
 
 Management of Digital Streams: The setup, teardown, and control of VoD streaming sessions is a core function of the VoD server software.
+
 A graphical illustration showing the steps associated with establishing an IP-VoD stream between a client IP set-top box and a backend VoD server is shown in the figure above and explained in the following sections.
+
 Start communication with the CA System—On receipt of a request from the IP set-top box, the server software communicates with the CA system to determine if the IPTV subscriber has been authorized to view the requested IP VoD asset.
+
 Identify appropriate IP-VoD Server—Once authorization has been verified, the software identifies a suitable VoD server cluster to fulfill the request. The location of this server or cluster of servers will depend on the IP subnet of the requesting set-top box.
+
 Send encryption keys across network—Once the server cluster has been allocated, the backend software or the CA system sends a decryption key to the IP set-top box to facilitate decryption of the IP VoD content.
+
 Send IP parameters—IP transport protocol parameters and the IP address of the VoD server is also sent to the IP set-top box.
+
 IP VoD streaming commences—Bandwidth is allocated and streaming of the IP VoD asset commences. The IP set-top box uses a protocol called Real-Time Streaming Protocol (RTSP) to manage the flow of the stream.
 
 While the stream is live on the network, it is the responsibility of the server software to ensure that if a fault occurs that the fail over system is activated and the stream continues without interruption.
-Updating Digital Content: A VoD software infrastructure has to have the capability to automatically manage the updating of video content. Relying on a manual system to keep VoD content libraries up to date is problematic. 
+
+Updating Digital Content: A VoD software infrastructure has to have the capability to automatically manage the updating of video content. Relying on a manual system to keep VoD content libraries up to date is problematic.
+
 The backoffice software ensures that all the digital assets included in the VoD library are current. This is achieved by automatically loading files from the content reception system into the VoD cluster of servers.
+
 Replication Management: The backoffice software manages the replication of digital assets across a distributed networking infrastructure. In the event that new content is made available, it is the responsibility of this software to ensure that the asset is propagated to edge and cache servers around the network.
+
 Management of Metadata: A centralized database is used to store the various attributes or metadata that are associated with each of the digital assets. Metadata is generally formatted as an XML file and provides descriptive data about each video asset. Metadata is typically used to search and browse VoD content. The types of metadata associated with a standard movie include:
 
 * Movie producers name
@@ -192,8 +204,11 @@ Management of Metadata: A centralized database is used to store the various attr
 * Royalty details
 
 The backoffice software is responsible for ensuring the integrity of this metadata. Industry groups such as CableLabs have defined a standard for VoD metadata.
+
 Search Capabilities: The indexing capabilities of video server software allow IPTV end users to carry out searches for digital assets on the backend IP-VoD servers.
+
 Managing Access of IP-VoD Digital Assets: The server software provides an external interface to the service provider’s back office components — the conditional access, digital rights management, and billing systems. Inputs from this interface are used to control and manage access to the digital VoD assets.
+
 Interfacing with IPTVCDs: The back-office software is also responsible for interfacing and communicating information about VoD assets that are available for purchase to the VoD client software application installed on various types of IPTVCDs.
 
 ##### IP VoD Transport Protocols
@@ -202,7 +217,9 @@ IP VoD servers typically use the Real-time Transport Protocol (RTP) and Real-tim
 
 Overview of RTP and RTCP
 As the name suggests RTP is a native part of the IP suite of communication protocols. It was published as a standard by the ITU-T and has been specifically designed to carry signals for a wide range of realtime applications.
+
 In addition to IPTV there are several other applications that use the RTP protocol ranging from video conferencing to VoIP. Applications that run RTP usually do so on top of the UDP and IP protocol layers. This is because RTP provides appropriate QoS mechanisms and is able to recover from problems that go undetected by UDP.
+
 RTCP or the control part of RTP monitors the quality of real-time IPTV services. Its main function is to work with protocols such as UDP to provide feedback information to the IPTV data center systems about the quality of data delivery and reception. The types of feedback information ranges from how many IPTV packets were lost while traversing the network to delays in the delivery of IPTV packets.
 
 RTSP Overview 
@@ -227,20 +244,25 @@ In addition to allowing subscribers to select and download specific movies a typ
 Many IPTV network operators provide viewers with access to the Web. This can be in the form of either TV-based Web browsing (WebTV) or Walled gardens. TV based Web browsing is similar to browsing on a PC but it is TV based. Since many Web pages are not tailored for viewing on TV, some network operators provide an embedded browser on their IP set-top boxes that change a Web page automatically. Such software can be provided as part of a middleware platform. 
 
 The concept of using a television set to bring Web connectivity has been commercially available for over a decade but due to a whole raft of reasons consumers have continued to reject the use of this interactive TV application. With advancements in IPTV and Web technologies the popularity of accessing Web content via TV applications is expected to grow in the coming years.
+
 Web browsing is a key component of an IPTV system. In the figure below, the structure of a generic infrastructure used by IPTV operators to deliver high speed Web access to their subscribers is illustrated.
+
 As shown, an end-to-end system includes: the IPTVCD Web browser, a HTTP Web server, caching servers, and a high-speed backhaul connection to the Internet.
 
 ##### IPTVCD Browsers
 
 Browsers built for IPTVCDs need the same robust functionality found in desktops, but with access to a fraction of the hardware resources. Therefore, they are optimized to run within resource constrained platforms such as set-top boxes, mobile phones, and Internet-enabled appliances. The browser software runs on top of the underlying real-time OS and middleware platforms and typically provides the following functionality:
+
 Displaying Web pages—Putting a Web page on a television screen is very different to displaying the same page on a computer monitor. It must be remembered that the television has been in existence for over a hundred years. Therefore, IPTVCDs employ sophisticated software browsers to ensure that Web pages are easily viewed on a TV screen.
  
 ##### Technical building blocks of an IPTV browsing system
 
-IPTVCD browsers are able to squeeze the content of a Web page on to a television screen, while limiting the affects of viewing content on a low resolution device. This process is called transcoding and involves repurposing Web content into a simpler format that is suitable for display on a standard television. 
+IPTVCD browsers are able to squeeze the content of a Web page on to a television screen, while limiting the affects of viewing content on a low resolution device. This process is called transcoding and involves repurposing Web content into a simpler format that is suitable for display on a standard television.
+
 Transcoding can be divided into two broad categories: HTML and Image Transcoding. The transcoding of HTML content includes checking the code for any errors. An example of an HTML error would be the absence of a </html> tag on a standard Web page. Transcoding filters these errors and produces a version of HTML that can be easily rendered by the IPTVCD browser. In addition to checking for errors, the HTML transcoding element is also capable of changing the layout to a TV centric format. For example, the default font size for a Web browser is normally 10 points. If this font size were to be displayed on a television screen, then it would be very difficult to read. Consequently, the transcoding engine will automatically increase the size of the font to 20 or 22 points. This approach means that less text can be displayed on a TV screen than in a comparable area of a computer monitor. However, the text is legible for subscribers that are viewing the page from a distance of 4--5 ft away from the television display. In addition to automatically adjusting font sizes, transcoding takes care of adjusting the size of a page to fit within the width and height of a TV screen. 
 
 Image transcoding is responsible for converting the many image formats used on the Internet to a format that is suitable for an IPTV environment. Flat-color GIFs are processed more readily by IPTVCDs than JPEGs or PNGs. So, for instance, when an IPTV subscriber makes a request for a document on the public Internet, which contains JPEG images, the image transcoder is able to convert the images into a GIF format. In addition to translating the file format, some advanced browsers are also capable of formatting and scaling graphics for a television screen.
+
 As shown in the figure below, an IPTVCD browser consists of a presentation engine that processes and renders a number of different types of open Internet and TV content formats.
 
 
@@ -248,10 +270,11 @@ As shown in the figure below, an IPTVCD browser consists of a presentation engin
 
 ###### A Web Server 
 
-A Web server, also known as an HTTP server, is basically a file server. A Web server’s main function within an IPTV network is to listen for and respond to HTTP requests from IPTVCD browser clients. When a request is received, the server opens a connection to the browser and sends the requested file or Web page. After servicing the request, the server returns to its listening state, waiting for the next HTTP request. HTTP is extremely rapid. According to Tim Berners-Lee, the developer of HTTP, the request is made and the response is given in a cycle of 100 ms. The delays experienced are usually the result of congestion on the IP based network. In addition to responding to requests from browsers, Web servers are also responsible for completing other tasks including
-Logging activity on the IPTV network
-Protecting Web pages from unauthorized users
-Sending requests to peer Web servers on the public Internet
+A Web server, also known as an HTTP server, is basically a file server. A Web server’s main function within an IPTV network is to listen for and respond to HTTP requests from IPTVCD browser clients. When a request is received, the server opens a connection to the browser and sends the requested file or Web page. After servicing the request, the server returns to its listening state, waiting for the next HTTP request. HTTP is extremely rapid. According to Tim Berners-Lee, the developer of HTTP, the request is made and the response is given in a cycle of 100 ms. The delays experienced are usually the result of congestion on the IP based network. In addition to responding to requests from browsers, Web servers are also responsible for completing other tasks including:
+* Logging activity on the IPTV network
+* Protecting Web pages from unauthorized users
+* Sending requests to peer Web servers on the public Internet
+
 The hardware requirements for a Web server will vary according to the level of interaction between the IP set-top box and the Web server.
 
 ##### Caching Servers 
