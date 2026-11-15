@@ -280,6 +280,7 @@ The hardware requirements for a Web server will vary according to the level of i
 ##### Caching Servers 
 
 When using a resource constrained device such as a set-top box to browse the Web, it makes sense to incorporate optimized caching within the overall system architecture. The caching servers are normally located at the IPTV service provider’s regional office at the edge of the core IP backbone network. The caching technique employed by IPTV systems involves the storage of popular Web pages on the server. The various caching servers used by an IPTV browsing application use standardized communication protocols to “talk to each other,” thus ensuring that local Web pages are kept current. Caching servers fall into two broad categories: software that runs on a standard server or a dedicated hardware platform.
+
 Note that in addition to the above technologies, a high speed and resilient connection to the public Internet is also required for IPTV browsing services.
 
 </br>
@@ -322,11 +323,13 @@ Every IPTV subscriber that avails of the e-mail service receives a unique e-mail
 This IPTV application allows consumers who have subscribed to a caller ID service through their telephone company to view caller information on the TV screen. In other words, when the phone rings a pop-up window appears on the television to notify the end user of the name and phone number of the incoming caller. 
 
 Advanced versions of this IP application allow the simultaneous pop-up of caller ID windows on multiple PC’s and TV screens around the house. A high level overview of the two main components required to deploy a caller ID service on an IPTV network are shown in the figure below and explained in the following sections.
+
 An application server—This server is normally located in the IPTV data center and supports a wide range of telecommunication protocols. When a call arrives, the signal is routed to this server and a communication session is established with the IP set-top box. Additional functions of this application server range, from communicating with the back office provisioning and management systems to managing data transfer across the network.
 
 ##### Components of an end-to-end caller ID IPTV application
 
 A client IPTVCD software application—the display of caller ID details on a TV requires the installation or activation of a specialized piece of software on the IPTVCD. This software module integrates with the IPTVCD operating system and is typically branded by the IPTV service provider. This application is responsible for ensuring that the name and number of the incoming caller appears on the subscriber’s TV screen.
+
 The caller ID application can also be used to display notifications of other types of incoming messaging services including voicemails, and text messages. The caller ID for TVs is an extremely popular application amongst IPTV subscribers and is one practical example of how converged services will have an impact on people’s lives in the years ahead.
 
 </br><div id="Advertising" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/IPTVads.jpg" width="700"></div>
@@ -335,10 +338,9 @@ The caller ID application can also be used to display notifications of other typ
 
 The use of interactive TV as a medium to deliver advertising is rapidly emerging into a mainstream application. The fact that it allows advertisers and service providers to engage consumers with a compelling suite of advertisements is considered to be one of the main drivers of this type of IPTV application. IPTV is capable of supporting a range of different IPTV ad formats, including telescoped long form adverts and integrated links that are embedded directly into the content. 
 
-In addition to the various ad formats, IPTV allows operators to place adverts into both the standard broadcast programming streams and the increasingly popular method of delivering content on-demand. Not only does IPTV advertising provide advertisers with a one-to-one connection with consumers but it also represents a significant revenue opportunity for telecommunication operators deploying IPTV services. The advent of new targeted advertising technologies that run across IP networks are now starting to appear in different IPTV deployments across the world. The two key benefits of these new IP based systems compared to traditional advertising systems that operate over RF based networks are
-Two-way capabilities—Owing to the fact that all of the IPTV deployments are operating over bidirectional broadband networks means that these new advertising systems are able to collect and monitor in real-time viewer reactions to advertisements. This feature allows advertisers to immediately gauge the effectiveness of a particular marketing campaign.
-Individual IPTVCDs can be addressed directly—The deployment of targeted ad insertion techniques on an IPTV system enables service providers, content programmers, and advertisers to target their advertising messages to individual IPTV viewers. This is a major benefit over current advertising systems, which are limited to targeting commercial advertisements to specific geographical areas.
-
+In addition to the various ad formats, IPTV allows operators to place adverts into both the standard broadcast programming streams and the increasingly popular method of delivering content on-demand. Not only does IPTV advertising provide advertisers with a one-to-one connection with consumers but it also represents a significant revenue opportunity for telecommunication operators deploying IPTV services. The advent of new targeted advertising technologies that run across IP networks are now starting to appear in different IPTV deployments across the world. The two key benefits of these new IP based systems compared to traditional advertising systems that operate over RF based networks are:
+* Two-way capabilities. Owing to the fact that all of the IPTV deployments are operating over bidirectional broadband networks means that these new advertising systems are able to collect and monitor in real-time viewer reactions to advertisements. This feature allows advertisers to immediately gauge the effectiveness of a particular marketing campaign.
+* Individual IPTVCDs can be addressed directly. The deployment of targeted ad insertion techniques on an IPTV system enables service providers, content programmers, and advertisers to target their advertising messages to individual IPTV viewers. This is a major benefit over current advertising systems, which are limited to targeting commercial advertisements to specific geographical areas.
 
 The functionality provided by this application allows subscribers to retain control of their video content viewing experience while ensuring that they only receive adverts on products and services that align with their interests in an opt-in basis. From an advertiser’s perspective, the availability of accurate user data helps to increase the success of their advertising campaigns by allowing them to focus on viewer’s interests. Service providers also benefit from this level of functionality because it helps to create a new television advertising revenue stream. The six major hardware and software components of a fully built end-to-end addressable advertising system are depicted in the figure below and described in the following sections.
 
@@ -364,14 +366,15 @@ The deployment of an IPTV targeted advertising system is rarely implemented in i
 
 ### 7. Gaming on Demand (GoD)
 
-IPTV technologies also allow telecom operators to deliver interactive TV gaming applications to their customers. The addition of online gaming applications to a portfolio of IPTV services can not only help to generate additional revenue streams for telecom operators but also reduce customer churn. In addition to subscriptions, IPTV providers can also place adverts in IP based games that connect advertisers with end users. The GoD application allows IPTV subscribers to
-
-play high quality premium games from the comfort of their homes;
-play with other gamers connected to the Internet;
-participate in text, phone, or emoticon messaging during game play.
+IPTV technologies also allow telecom operators to deliver interactive TV gaming applications to their customers. The addition of online gaming applications to a portfolio of IPTV services can not only help to generate additional revenue streams for telecom operators but also reduce customer churn. In addition to subscriptions, IPTV providers can also place adverts in IP based games that connect advertisers with end users. The GoD application allows IPTV subscribers to:
+* Play high quality premium games from the comfort of their homes;
+* Play with other gamers connected to the Internet;
+* Participate in text, phone, or emoticon messaging during game play.
 
 The two major components of an IP based on-demand gaming system are depicted in the figure below.
+
 Gaming servers—A client-server computing architecture is generally used to deploy this type of IPTV application. The servers are located at the IPTV data center and typically integrate seamlessly into existing VoD infrastructures. A server may be involved in two types of tasks with the deployment of online games: store the various game titles and interpreting instructions from the IP set-top box.
+
 Online gaming client applications—IPTV gaming applications run locally or remotely, dependent on the hardware capabilities of the IPTVCD. A remote control or specialized joystick is typically used to play the games. The UDP/IP protocol layers of the IPTVCM are used to carry the gaming content both upstream and downstream to the client IPTVCD.
 Although games deployed by IPTV systems are a far cry from the advanced games that are played on dedicated game consoles, the level of sophistication used by IPTV games has improved dramatically in recent times and this trend is expected to continue into the future.
 
@@ -396,8 +399,6 @@ Once this device is live on the network, it is possible to automatically send te
 ### 9. Digital Video Recording (DVR)
 
 A hard disk needs to be incorporated into the IP set-top box to support DVR functionality; the ability to select programs, digitally record and store live TV content on a local hard disk.
-
-
 
 ##### IP Set-Top DVRs
 The IP set-top DVR category may be subdivided primarily into standalone and multi-room devices.
@@ -446,6 +447,7 @@ While most DVR enabled IP set-top boxes use standard hard disks, some storage ma
 With these types of set-tops, IPTV subscribers can receive and watch streamed video content stored on their DVR set-top box in various rooms around the house. Each one of these rooms typically requires an entry level IP set-top box to gain access to the video content. There are two approaches to implementing a multiroom system:
 
 A centralized storage architecture where only one IP set-top box that is connected to a home network includes a hard disk. Under this architecture the DVR functions are executed by the main or master IP DVR set-top box and the remaining non DVR capable digital set-top boxes assume the roles of access devices. The use of the centralized video storage architecture is a significant enhancement, however, IPTV subscribers cannot simultaneously access multiple programs from the DVR. In other words, the master IP DVR set-top box can only play one program at any particular instance in time.
+
 A distributed storage architecture where all IP set-top boxes connected to a home network include a hard disk.
 
 </br></br><div id="WGP" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/WGP.png" width="700"></div>
