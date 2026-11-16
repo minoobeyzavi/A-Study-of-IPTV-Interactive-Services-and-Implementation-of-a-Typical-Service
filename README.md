@@ -324,11 +324,11 @@ This IPTV application allows consumers who have subscribed to a caller ID servic
 
 Advanced versions of this IP application allow the simultaneous pop-up of caller ID windows on multiple PC’s and TV screens around the house. A high level overview of the two main components required to deploy a caller ID service on an IPTV network are shown in the figure below and explained in the following sections.
 
-An application server—This server is normally located in the IPTV data center and supports a wide range of telecommunication protocols. When a call arrives, the signal is routed to this server and a communication session is established with the IP set-top box. Additional functions of this application server range, from communicating with the back office provisioning and management systems to managing data transfer across the network.
-
 ##### Components of an end-to-end caller ID IPTV application
 
-A client IPTVCD software application—the display of caller ID details on a TV requires the installation or activation of a specialized piece of software on the IPTVCD. This software module integrates with the IPTVCD operating system and is typically branded by the IPTV service provider. This application is responsible for ensuring that the name and number of the incoming caller appears on the subscriber’s TV screen.
+**An application server:** This server is normally located in the IPTV data center and supports a wide range of telecommunication protocols. When a call arrives, the signal is routed to this server and a communication session is established with the IP set-top box. Additional functions of this application server range, from communicating with the back office provisioning and management systems to managing data transfer across the network.
+
+**A client IPTVCD software application:** the display of caller ID details on a TV requires the installation or activation of a specialized piece of software on the IPTVCD. This software module integrates with the IPTVCD operating system and is typically branded by the IPTV service provider. This application is responsible for ensuring that the name and number of the incoming caller appears on the subscriber’s TV screen.
 
 The caller ID application can also be used to display notifications of other types of incoming messaging services including voicemails, and text messages. The caller ID for TVs is an extremely popular application amongst IPTV subscribers and is one practical example of how converged services will have an impact on people’s lives in the years ahead.
 
@@ -373,9 +373,9 @@ IPTV technologies also allow telecom operators to deliver interactive TV gaming 
 
 The two major components of an IP based on-demand gaming system are depicted in the figure below.
 
-Gaming servers—A client-server computing architecture is generally used to deploy this type of IPTV application. The servers are located at the IPTV data center and typically integrate seamlessly into existing VoD infrastructures. A server may be involved in two types of tasks with the deployment of online games: store the various game titles and interpreting instructions from the IP set-top box.
+**Gaming servers:** A client-server computing architecture is generally used to deploy this type of IPTV application. The servers are located at the IPTV data center and typically integrate seamlessly into existing VoD infrastructures. A server may be involved in two types of tasks with the deployment of online games: store the various game titles and interpreting instructions from the IP set-top box.
 
-Online gaming client applications—IPTV gaming applications run locally or remotely, dependent on the hardware capabilities of the IPTVCD. A remote control or specialized joystick is typically used to play the games. The UDP/IP protocol layers of the IPTVCM are used to carry the gaming content both upstream and downstream to the client IPTVCD.
+**Online gaming client applications:** IPTV gaming applications run locally or remotely, dependent on the hardware capabilities of the IPTVCD. A remote control or specialized joystick is typically used to play the games. The UDP/IP protocol layers of the IPTVCM are used to carry the gaming content both upstream and downstream to the client IPTVCD.
 Although games deployed by IPTV systems are a far cry from the advanced games that are played on dedicated game consoles, the level of sophistication used by IPTV games has improved dramatically in recent times and this trend is expected to continue into the future.
 
 </br></br><div id="EAS"></div>
@@ -455,10 +455,11 @@ A distributed storage architecture where all IP set-top boxes connected to a hom
 ### 10. Walled Garden Portal
 
 A walled garden portal is best defined as a Web portal or quasi-Web environment specifically developed for a TV environment. Within a walled garden, a viewer has access to a variety of content such as horoscopes, news, recipes, sports, weather, and internet applications such as e-mail and chat. In addition to providing content, some of the more advanced portals provide the following functionalities:
-Registration services for various types of IPTV content services.
-Allowing end users to purchase IPTV content services.
-Allowing service providers to run promotional campaigns.
-Providing content navigation services, which are similar to those provided by the IPTV EPG.
+* Registration services for various types of IPTV content services.
+* Allowing end users to purchase IPTV content services.
+* Allowing service providers to run promotional campaigns.
+* Providing content navigation services, which are similar to those provided by the IPTV EPG.
+
 Since content is owned and controlled by the platform provider, only IPTV subscribers have access to a walled garden via their TV. Internet users do not have access. In some cases, IPTV subscribers have access to the public Internet from the walled garden. Each page within a walled garden is designed for TV.
 
 Designing Pages for an IPTV Based Walled Garden Portal 
