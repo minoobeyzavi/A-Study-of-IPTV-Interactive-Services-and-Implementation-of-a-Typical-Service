@@ -474,12 +474,15 @@ A graphical example of the setting in which a PC user typically uses a PC is pre
 ##### A typical setting in which a person uses a PC
 
 A number of considerations need to be taken into account when repurposing Web content for an IPTV walled garden portal. The following list provides a set of guidelines for professionals who are involved in developing a portal site for a new IPTV service.
+
 Keep Video Picture in Background When designing a Web page for a TV audience, it is preferable to have the TV picture as the background to maintain consistency and to enliven the Web page. IPTV content creators should provide a choice of semitransparent or opaque backgrounds to the Web page. It is also possible to use audio (like music and voice introductions), video, and animations to energize the material.
+
 Keep Content Concise Considering the medium and viewers’ goals, content in a Web page should not be too long and complex. Content should be provided in easily absorbed chunks and having a large quantity of menus or hyperlinks should be avoided. Since a TV viewer will have less patience than a PC user, ensure fast download and response times.
 Choice of Navigation Given that it is difficult to use a PC keyboard while sitting on a soft chair, the navigational device most used for Interactive IPTV applications is a remote control. A remote control should be light and easy to hold in one hand. The buttons should be easy to see and to press, a maximum of 30 buttons is optimal.
-Most remote controls have directional buttons and a select button. There should be a clear relationship between the screens and the remote; this is often achieved by linking color-coded onscreen buttons with equivalent remote control function keys.
-IPTV providers often supply a wireless keyboard with a remote control so that a viewer can make the most of features such as e-mail, chat, t-commerce, and informational elements. A wireless keyboard contains most of the buttons that are found on a PC keyboard. They also include iTV specific buttons that vary according to brand. Seeing as, not all IPTV viewers have a wireless keyboard or if they do, it is cumbersome to use in a TV setting, it is best to assist navigation by:
 
+Most remote controls have directional buttons and a select button. There should be a clear relationship between the screens and the remote; this is often achieved by linking color-coded onscreen buttons with equivalent remote control function keys.
+
+IPTV providers often supply a wireless keyboard with a remote control so that a viewer can make the most of features such as e-mail, chat, t-commerce, and informational elements. A wireless keyboard contains most of the buttons that are found on a PC keyboard. They also include iTV specific buttons that vary according to brand. Seeing as, not all IPTV viewers have a wireless keyboard or if they do, it is cumbersome to use in a TV setting, it is best to assist navigation by:
 * Keeping navigation simple
 * Avoiding scroll bars or allowing limited vertical scrolling 
 * Presenting choices in lists 
@@ -494,44 +497,60 @@ IPTV providers often supply a wireless keyboard with a remote control so that a 
 * Because Web pages are built for a mouse-controlled onscreen cursor, it is not possible to design for navigation in a TV Web page in the same way.
 
 Characteristic Description
-TV audience The TV audience
-is culturally, intellectually, and technically diverse;
+
+TV audience<br>
+The TV audience is culturally, intellectually, and technically diverse;
 age profile encompasses all ages—from the very young to the very old;
 uses the TV principally for entertainment purposes;
 does not expect demanding interaction;
 has, on average, a low level of computer skills.
-Distance from TV A TV viewer views the TV at a distance of approximately three to four and a half meters (10--15 ft). Everything displayed on screen should be large enough for viewers to see from a 5 m distance. Font size should be at least 18 point and screen elements should be arranged well spatially, to create a cleaner and clearer screen.
-TV content A TV viewer is most used to the seamless display of content in motion with audio, that is, standard television. Viewers have become more and more familiar with text in the form of program guides in large font. In Europe, many viewers have become accustomed to using teletext that is overlaid on the TV picture. It is available with opaque, semitransparent, and transparent settings.
-Navigational devices A TV viewer uses a remote control and/or a wireless keyboard as navigational devices. The remote control is most prevalent because it is a handheld device and relatively inexpensive. The keyboard can be cumbersome to use while sitting on a soft chair but is useful for text input. The context of viewers’ television experience involves going up and down through broadcast channels.
+
+Distance from TV<br>
+A TV viewer views the TV at a distance of approximately three to four and a half meters (10--15 ft). Everything displayed on screen should be large enough for viewers to see from a 5 m distance. Font size should be at least 18 point and screen elements should be arranged well spatially, to create a cleaner and clearer screen.
+
+TV content<br>
+A TV viewer is most used to the seamless display of content in motion with audio, that is, standard television. Viewers have become more and more familiar with text in the form of program guides in large font. In Europe, many viewers have become accustomed to using teletext that is overlaid on the TV picture. It is available with opaque, semitransparent, and transparent settings.
+
+Navigational devices<br>
+A TV viewer uses a remote control and/or a wireless keyboard as navigational devices. The remote control is most prevalent because it is a handheld device and relatively inexpensive. The keyboard can be cumbersome to use while sitting on a soft chair but is useful for text input. The context of viewers’ television experience involves going up and down through broadcast channels.
 
 Using a PC Characteristic Description
-PC users PC users
-use the PC mainly for information and communication (often work-oriented);
+
+PC users<br>
+PC users use the PC mainly for information and communication (often work-oriented);
 expect lots of text, complexities, and problems;
 often expect to wait for something to download;
 have moderate to high computer-skill levels.
+
 Distance from PC 
 The PC user is usually about half a meter (2 ft) from his or her PC.
+
 Along with high resolution and a picture that adheres to the edges of the computer monitor, the screen allows for a lot of detail. The standard text size is 11 point. PC content PC users are used to static, clear, and often colorful display of content in Web pages. There are few restrictions to color or color combinations. PC Web pages generally consist of menus, sub, and drop-down menus; lots of text in 11 point font, vertical and horizontal scroll bars, numerous hyperlinks, search features, crisp graphics, and audio and video requiring plug-ins Navigational devices Usually have a keyboard and mouse as navigational tools or similar equivalents.
+
 PC setting Many PC users are accustomed to viewing Web pages in a focused setting such as in a home or work office while sitting on a “hard” chair, at a desk (often both are ergonomically designed).
 
 ##### TV setting
 
 Generally, viewers watch TV in the “living” room or area of their home. Typically, this is a comfortable area with soft seating and lighting to create an environment conductive to relaxation.
+
 Understand the limited Memory and Speed of IPTVCDs Particularly IP Set-top boxes Set-top boxes range in CPU power, operating systems, and memory capacities. However, a set-top box on average will have 8 MBs of RAM and a processing speed of 400 MHz while most PCs will have at least 1 GB of RAM, a 100 GB hard-drive, and a processing speed of 4 GHz. Viewers will not be any less impatient with loading times if aware of these differences. Loading and response times should be short.
+
 Understand the Characteristics of Analog TV The resolution and the safe area affects how a Web page looks on a TV screen.
+
 Resolution—Owing to higher resolutions, the picture display on a computer monitor is much crisper and more stable (e.g., color) than an analog TV display. Resolution is generally measured in terms of pixels. The more pixels there are in a display, the better the resolution. The manner in, and speed at, which a picture display is transmitted to the screen are also determining factors.
+
 TV safe area—Content on a full screen might be obscured because of overscanning or the casing of a TV-set. That is why it is important to determine the safe area of a screen. The safe area of a screen is the area where the audience is guaranteed to see content (with few exceptions) despite the brand or style of TV set. TV signals usually overscan the edges of the display so that the TV picture appears without “fringes.” In addition, the amount of the display area covered by a TV’s casing depends on the TV set.
 
-Minimize Download Times 
-To minimize download times
+Minimize Download Times
+
+To minimize download times<br>
 1. reduce amount of data to be downloaded—If there are fewer elements on the screen that need to be downloaded, the overall download time will be reduced.
 2. design pages to fit within the safe area of the TV screen—If pages fit the safe area of the TV screen, the IP set-top browser does not need to spend time resizing large images and tables.
 3. anticipate the IPTV viewer’s next page—While the viewer is looking at the current page the next one can be downloading.
 4. insert a fast-downloading introductory scene in animations—While the introductory scene is playing, the remainder of the animation can be downloading.
 5. use television or a color as a background—It is best to avoid putting background images other than television or a plain color as a background on the Web page.
 
-Identify the Types of Signals Used by Target Televisions 
+Identify the Types of Signals Used by Target Televisions<br>
 There are two primary types of video signals used by analog televisions: composite and S-video input. In composite video, red, green, blue (RGB), and sync information are combined into one signal going into the TV; in order to transmit this picture, the TV must separate the signal into its four components, which results in some distortions and a degraded picture quality. S-Video provides an improved mechanism for carrying signals resulting in cleaner and sharper pictures. Content developers need to be aware of these differences when customizing applications for an IPTV platform.
 
 Avoid Color Problems TV sets with a composite signal usually generate visual artifacts. Artifacts are distortions of display, content, or sound caused by a limitation or malfunction in the technology used. Artifacts can be minor or extreme.
