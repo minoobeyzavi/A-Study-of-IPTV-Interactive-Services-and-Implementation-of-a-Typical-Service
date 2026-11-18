@@ -138,16 +138,19 @@ The EPG network architecture described above relies on the ability of the networ
 
 IPTV is often provided in conjunction with VoD. As the name implies VoD is a service that allows subscribers to select and download video content over an IP network. The content typically includes a library of films, music videos, and recorded television programs. The deployment of a VoD system falls into two broad categories:
 
-Downloadable—the VoD content is delivered to the IP set-top box and the content is viewed once the downloading is finished.
-Streaming—The IPTV set-top box receives the content via an IP stream.
+**Downloadable:** the VoD content is delivered to the IP set-top box and the content is viewed once the downloading is finished.
+
+**Streaming:** The IPTV set-top box receives the content via an IP stream.
+
 A VoD system is the “holy grail” of viewing TV and enables an individual subscriber located in geographically dispersed locations to demand a program or movie when and where they want it.
+
 The selection of a VoD title by an IPTV end user is relatively easy and typically comprises the following five steps:
 
-The subscriber selects a VoD title from the interactive TV application.
-The IPTVCD accepts the command and sends this instruction to the headend or data center.
-The conditional access system is checked to verify that the subscriber is authorized to view the particular VoD title.
-Once authorization is complete, a unicast video stream is forwarded to the regional office and onward to the IPTVCD.
-The IP stream is controlled by the subscriber.
+* The subscriber selects a VoD title from the interactive TV application.
+* The IPTVCD accepts the command and sends this instruction to the headend or data center.
+* The conditional access system is checked to verify that the subscriber is authorized to view the particular VoD title.
+* Once authorization is complete, a unicast video stream is forwarded to the regional office and onward to the IPTVCD.
+* The IP stream is controlled by the subscriber.
 
 In addition to a high capacity two-way broadband network, the deployment of IP-VoD services also requires a number of other logical and physical technology blocks:
 
@@ -156,6 +159,7 @@ In addition to a high capacity two-way broadband network, the deployment of IP-V
 * An Interactive IP-VoD client application
 
 We explore these technology blocks in the following subsections.
+
 IP-VoD Streaming Servers
 
 In addition to the various processes that are executed in IPTV data centers, namely, encoding, multiplexing, and modulation, a number of high capacity computer servers are also installed to allow the delivery of IP-VoD services to various types of IPTVCDs. The main function of these VoD streaming servers is to retrieve and deliver on demand video content to a distribution network.
