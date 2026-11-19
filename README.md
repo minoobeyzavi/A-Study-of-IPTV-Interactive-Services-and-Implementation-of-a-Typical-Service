@@ -192,9 +192,9 @@ Updating Digital Content: A VoD software infrastructure has to have the capabili
 
 The backoffice software ensures that all the digital assets included in the VoD library are current. This is achieved by automatically loading files from the content reception system into the VoD cluster of servers.
 
-Replication Management: The backoffice software manages the replication of digital assets across a distributed networking infrastructure. In the event that new content is made available, it is the responsibility of this software to ensure that the asset is propagated to edge and cache servers around the network.
+**Replication Management:** The backoffice software manages the replication of digital assets across a distributed networking infrastructure. In the event that new content is made available, it is the responsibility of this software to ensure that the asset is propagated to edge and cache servers around the network.
 
-Management of Metadata: A centralized database is used to store the various attributes or metadata that are associated with each of the digital assets. Metadata is generally formatted as an XML file and provides descriptive data about each video asset. Metadata is typically used to search and browse VoD content. The types of metadata associated with a standard movie include:
+**Management of Metadata:** A centralized database is used to store the various attributes or metadata that are associated with each of the digital assets. Metadata is generally formatted as an XML file and provides descriptive data about each video asset. Metadata is typically used to search and browse VoD content. The types of metadata associated with a standard movie include:
 
 * Movie producers name
 * Description
@@ -209,17 +209,18 @@ Management of Metadata: A centralized database is used to store the various attr
 
 The backoffice software is responsible for ensuring the integrity of this metadata. Industry groups such as CableLabs have defined a standard for VoD metadata.
 
-Search Capabilities: The indexing capabilities of video server software allow IPTV end users to carry out searches for digital assets on the backend IP-VoD servers.
+**Search Capabilities:** The indexing capabilities of video server software allow IPTV end users to carry out searches for digital assets on the backend IP-VoD servers.
 
-Managing Access of IP-VoD Digital Assets: The server software provides an external interface to the service provider’s back office components — the conditional access, digital rights management, and billing systems. Inputs from this interface are used to control and manage access to the digital VoD assets.
+**Managing Access of IP-VoD Digital Assets:** The server software provides an external interface to the service provider’s back office components — the conditional access, digital rights management, and billing systems. Inputs from this interface are used to control and manage access to the digital VoD assets.
 
-Interfacing with IPTVCDs: The back-office software is also responsible for interfacing and communicating information about VoD assets that are available for purchase to the VoD client software application installed on various types of IPTVCDs.
+**Interfacing with IPTVCDs:** The back-office software is also responsible for interfacing and communicating information about VoD assets that are available for purchase to the VoD client software application installed on various types of IPTVCDs.
 
 ##### IP VoD Transport Protocols
 
 IP VoD servers typically use the Real-time Transport Protocol (RTP) and Real-time Control Protocol (RTCP) to stream video data to an IPTVCD. The Real-Time Streaming Protocol is subsequently used to control these streams. The following sections give a brief overview of these three protocols when used in an IPTV infrastructure.
 
 Overview of RTP and RTCP
+
 As the name suggests RTP is a native part of the IP suite of communication protocols. It was published as a standard by the ITU-T and has been specifically designed to carry signals for a wide range of realtime applications.
 
 In addition to IPTV there are several other applications that use the RTP protocol ranging from video conferencing to VoIP. Applications that run RTP usually do so on top of the UDP and IP protocol layers. This is because RTP provides appropriate QoS mechanisms and is able to recover from problems that go undetected by UDP.
@@ -227,6 +228,7 @@ In addition to IPTV there are several other applications that use the RTP protoc
 RTCP or the control part of RTP monitors the quality of real-time IPTV services. Its main function is to work with protocols such as UDP to provide feedback information to the IPTV data center systems about the quality of data delivery and reception. The types of feedback information ranges from how many IPTV packets were lost while traversing the network to delays in the delivery of IPTV packets.
 
 RTSP Overview 
+
 Real-Time Streaming Protocol is an application level protocol belonging to the IP communication model that enables IPTVCDs to establish and control the flow of IPTV streams. The specification for RTSP was published in 1998 and can be found in RFC 2326. It allows IPTVCDs to issue VCR style commands to an IPTV streaming server. The figure below shows how these protocols interact with each other.
 
 
@@ -318,7 +320,7 @@ E-mail messages are always transmitted in American Standard Code for Information
 
 Every IPTV subscriber that avails of the e-mail service receives a unique e-mail address and a mailbox. The mailboxes are stored and managed on mail server gateways at the IPTV data center. These servers are connected to the Internet and also interface with the OBSS for billing purposes. The mail server gateway is a software program that runs on a mail server and links the IPTV network through a firewall to the public Internet.
 
-</br>
+<br>
 <div id="CallerID" align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/CallerID.png" width="400"></div>
 
 
@@ -382,7 +384,7 @@ The two major components of an IP based on-demand gaming system are depicted in 
 **Online gaming client applications:** IPTV gaming applications run locally or remotely, dependent on the hardware capabilities of the IPTVCD. A remote control or specialized joystick is typically used to play the games. The UDP/IP protocol layers of the IPTVCM are used to carry the gaming content both upstream and downstream to the client IPTVCD.
 Although games deployed by IPTV systems are a far cry from the advanced games that are played on dedicated game consoles, the level of sophistication used by IPTV games has improved dramatically in recent times and this trend is expected to continue into the future.
 
-</br></br><div id="EAS"></div>
+<br><br><div id="EAS"></div>
 <div align="center"><img src="https://github.com/minoobeyzavi/Review-of-IPTV-Interactive-Services-and-Implementation-of-a-Typical-Service/blob/master/Images/EAS.png" width="400"></div>
 
 ### 8. IPTV Based EAS
