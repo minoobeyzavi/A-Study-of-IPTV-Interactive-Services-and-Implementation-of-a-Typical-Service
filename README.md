@@ -468,7 +468,7 @@ A walled garden portal is best defined as a Web portal or quasi-Web environment 
 
 Since content is owned and controlled by the platform provider, only IPTV subscribers have access to a walled garden via their TV. Internet users do not have access. In some cases, IPTV subscribers have access to the public Internet from the walled garden. Each page within a walled garden is designed for TV.
 
-Designing Pages for an IPTV Based Walled Garden Portal 
+##### Designing Pages for an IPTV Based Walled Garden Portal 
 
 IPTV service providers and content creators must first consider the differences between a TV and a PC, the circumstances in which they are used and the audience using the IPTV portal. A graphical example of a viewer watching TV is presented in the figure below and described in the following sections.
 
@@ -502,7 +502,7 @@ IPTV providers often supply a wireless keyboard with a remote control so that a 
 * Add back and next links to each page
 * Because Web pages are built for a mouse-controlled onscreen cursor, it is not possible to design for navigation in a TV Web page in the same way.
 
-Characteristic Description
+##### Characteristic Description
 
 TV audience<br>
 The TV audience is culturally, intellectually, and technically diverse;
@@ -520,7 +520,7 @@ A TV viewer is most used to the seamless display of content in motion with audio
 Navigational devices<br>
 A TV viewer uses a remote control and/or a wireless keyboard as navigational devices. The remote control is most prevalent because it is a handheld device and relatively inexpensive. The keyboard can be cumbersome to use while sitting on a soft chair but is useful for text input. The context of viewers’ television experience involves going up and down through broadcast channels.
 
-Using a PC Characteristic Description
+##### Using a PC Characteristic Description
 
 PC users<br>
 PC users use the PC mainly for information and communication (often work-oriented);
@@ -528,7 +528,7 @@ expect lots of text, complexities, and problems;
 often expect to wait for something to download;
 have moderate to high computer-skill levels.
 
-Distance from PC 
+Distance from PC<br>
 The PC user is usually about half a meter (2 ft) from his or her PC.
 
 Along with high resolution and a picture that adheres to the edges of the computer monitor, the screen allows for a lot of detail. The standard text size is 11 point. PC content PC users are used to static, clear, and often colorful display of content in Web pages. There are few restrictions to color or color combinations. PC Web pages generally consist of menus, sub, and drop-down menus; lots of text in 11 point font, vertical and horizontal scroll bars, numerous hyperlinks, search features, crisp graphics, and audio and video requiring plug-ins Navigational devices Usually have a keyboard and mouse as navigational tools or similar equivalents.
@@ -539,24 +539,26 @@ PC setting Many PC users are accustomed to viewing Web pages in a focused settin
 
 Generally, viewers watch TV in the “living” room or area of their home. Typically, this is a comfortable area with soft seating and lighting to create an environment conductive to relaxation.
 
-Understand the limited Memory and Speed of IPTVCDs Particularly IP Set-top boxes Set-top boxes range in CPU power, operating systems, and memory capacities. However, a set-top box on average will have 8 MBs of RAM and a processing speed of 400 MHz while most PCs will have at least 1 GB of RAM, a 100 GB hard-drive, and a processing speed of 4 GHz. Viewers will not be any less impatient with loading times if aware of these differences. Loading and response times should be short.
+**Understand the limited Memory and Speed of IPTVCDs Particularly IP Set-top boxes:** Set-top boxes range in CPU power, operating systems, and memory capacities. However, a set-top box on average will have 8 MBs of RAM and a processing speed of 400 MHz while most PCs will have at least 1 GB of RAM, a 100 GB hard-drive, and a processing speed of 4 GHz. Viewers will not be any less impatient with loading times if aware of these differences. Loading and response times should be short.
 
-Understand the Characteristics of Analog TV The resolution and the safe area affects how a Web page looks on a TV screen.
+**Understand the Characteristics of Analog TV:** The resolution and the safe area affects how a Web page looks on a TV screen.
 
-Resolution—Owing to higher resolutions, the picture display on a computer monitor is much crisper and more stable (e.g., color) than an analog TV display. Resolution is generally measured in terms of pixels. The more pixels there are in a display, the better the resolution. The manner in, and speed at, which a picture display is transmitted to the screen are also determining factors.
+**Resolution:** Owing to higher resolutions, the picture display on a computer monitor is much crisper and more stable (e.g., color) than an analog TV display. Resolution is generally measured in terms of pixels. The more pixels there are in a display, the better the resolution. The manner in, and speed at, which a picture display is transmitted to the screen are also determining factors.
 
-TV safe area—Content on a full screen might be obscured because of overscanning or the casing of a TV-set. That is why it is important to determine the safe area of a screen. The safe area of a screen is the area where the audience is guaranteed to see content (with few exceptions) despite the brand or style of TV set. TV signals usually overscan the edges of the display so that the TV picture appears without “fringes.” In addition, the amount of the display area covered by a TV’s casing depends on the TV set.
+**TV safe area:** Content on a full screen might be obscured because of overscanning or the casing of a TV-set. That is why it is important to determine the safe area of a screen. The safe area of a screen is the area where the audience is guaranteed to see content (with few exceptions) despite the brand or style of TV set. TV signals usually overscan the edges of the display so that the TV picture appears without “fringes.” In addition, the amount of the display area covered by a TV’s casing depends on the TV set.
 
-Minimize Download Times
+##### Minimize Download Times
 
-To minimize download times<br>
-1. reduce amount of data to be downloaded—If there are fewer elements on the screen that need to be downloaded, the overall download time will be reduced.
-2. design pages to fit within the safe area of the TV screen—If pages fit the safe area of the TV screen, the IP set-top browser does not need to spend time resizing large images and tables.
-3. anticipate the IPTV viewer’s next page—While the viewer is looking at the current page the next one can be downloading.
-4. insert a fast-downloading introductory scene in animations—While the introductory scene is playing, the remainder of the animation can be downloading.
-5. use television or a color as a background—It is best to avoid putting background images other than television or a plain color as a background on the Web page.
+To minimize download times:
 
-Identify the Types of Signals Used by Target Televisions<br>
+1. Reduce amount of data to be downloaded. If there are fewer elements on the screen that need to be downloaded, the overall download time will be reduced.
+2. Design pages to fit within the safe area of the TV screen. If pages fit the safe area of the TV screen, the IP set-top browser does not need to spend time resizing large images and tables.
+3. Anticipate the IPTV viewer’s next page. While the viewer is looking at the current page the next one can be downloading.
+4. Insert a fast-downloading introductory scene in animations. While the introductory scene is playing, the remainder of The animation can be downloading.
+5. Use television or a color as a background. It is best to avoid putting background images other than television or a plain color as a background on the Web page.
+
+Identify the Types of Signals Used by Target Televisions
+
 There are two primary types of video signals used by analog televisions: composite and S-video input. In composite video, red, green, blue (RGB), and sync information are combined into one signal going into the TV; in order to transmit this picture, the TV must separate the signal into its four components, which results in some distortions and a degraded picture quality. S-Video provides an improved mechanism for carrying signals resulting in cleaner and sharper pictures. Content developers need to be aware of these differences when customizing applications for an IPTV platform.
 
 Avoid Color Problems TV sets with a composite signal usually generate visual artifacts. Artifacts are distortions of display, content, or sound caused by a limitation or malfunction in the technology used. Artifacts can be minor or extreme.
@@ -565,15 +567,15 @@ Such artifacts do not appear on computer monitors. If the chrominance difference
 
 Minimizing Color Problems By eliminating chroma crawl IPTV content creators restrict their choice in colors. However in many cases, it is sufficient to just minimize the effect. Minimizing chroma crawl means reducing the chrominance distance between adjacent colors. This is possible by replacing vivid colors with pastel relatives, for example. In addition to chroma crawl there are other TV-generated color problems to consider:
 
-Hot colors—To reduce the over-vibrant appearance of colors, reduce saturation by 80 to 85%.
+**Hot colors:** To reduce the over-vibrant appearance of colors, reduce saturation by 80 to 85%.
 Bleeding—Bleeding can occur with either a composite or a S-video signal.
 Adjoining colors appear to bleed into each other. Bleeding can be remedied in the same way as chroma crawl.
 
-Moiré effect—Moiré patterns occur with interlaced scanning when contrasting colors (like, black and white in a herringbone pattern) appear in close proximity. Moiré effects vary depending on colors. The area around the pattern can produce a shimmering effect or it could produce a red glow, for example. It is possible to avoid Moiré effects by avoiding detailed patterns.
+**Moiré effect:** Moiré patterns occur with interlaced scanning when contrasting colors (like, black and white in a herringbone pattern) appear in close proximity. Moiré effects vary depending on colors. The area around the pattern can produce a shimmering effect or it could produce a red glow, for example. It is possible to avoid Moiré effects by avoiding detailed patterns.
 
-Blooming—In interlaced scanning, brighter scan lines are wider than darker ones. Therefore, if there is a large number of alternating bright and dark scan lines grouped together the vertical sides appear to wave in and out. Blooming is highlighted when you have vertical lines, like those in a table.
+**Blooming:** In interlaced scanning, brighter scan lines are wider than darker ones. Therefore, if there is a large number of alternating bright and dark scan lines grouped together the vertical sides appear to wave in and out. Blooming is highlighted when you have vertical lines, like those in a table.
 
-Flickering—Flickering is caused because TV displays are interlaced. Without a flicker filter, a thin horizontal line just one-pixel thick would appear to flicker on and off. Horizontal lines should be at least 2 pixels in width. Similarly, horizontal edges between two contrasting colors would pulsate.
+**Flickering:** Flickering is caused because TV displays are interlaced. Without a flicker filter, a thin horizontal line just one-pixel thick would appear to flicker on and off. Horizontal lines should be at least 2 pixels in width. Similarly, horizontal edges between two contrasting colors would pulsate.
 
 There is a gradual move across the world from old analog TV sets toward digital and high definition televisions, which deliver better picture, sound, and overall stability. Eventually there will be global deployment of these. When this happens the development of Web pages for IPTV Web portals will become more straightforward. Until that happens, content creators will need to comply with the various guidelines outlined above. From a market demand perspective, TV viewers are more accustomed to watching TV than viewing a Web page on its screens. However, this author is more optimistic than ever that the concept of walled gardens will eventually catch on and firmly believes that IPTV will act as a catalyst for increasing the popularity of this application.
 
